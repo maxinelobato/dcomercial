@@ -6,8 +6,9 @@ export function VideoBG() {
     <VideoPlayer
       className={styles.reactvideocover}
       src={"/src/components/video/index.mp4"}
-      autoPlay={true}
-      muted={false}
+      autoPlay="true"
+      unmute="true"
+      preload="auto"
     />
   );
 }
