@@ -1,0 +1,18 @@
+.reactvideocover {
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (min-width: 780px) {
+  .reactvideocover {
+    display: flex;
+    width: 100%;
+  }
+  .reactvideocover source {
+    min-width: 100%;
+  }
+}
