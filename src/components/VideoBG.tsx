@@ -1,4 +1,3 @@
-import VideoPlayer from "react-background-video-player";
 import styles from "./video/styles.module.css";
 import sample from "./video/index.mp4";
 
