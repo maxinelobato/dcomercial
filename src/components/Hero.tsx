@@ -7,6 +7,7 @@ import {
   Stack,
   Image,
   Badge,
+  Link,
 } from "@chakra-ui/react";
 import { VideoBG } from "./VideoBG";
 import imgURL from "./image/empireabsolut.jpg";
@@ -111,7 +112,15 @@ export default function Hero() {
                       bg: "orange.500",
                     }}
                   >
-                    ADQUIRA AGORA MESMO
+                    <Link
+                      style={{
+                        textDecoration: "none",
+                      }}
+                      href="https://www.hinode.com.br/empire-absolut-deo-colonia/p/?id_consultor=35828203"
+                      isExternal
+                    >
+                      ADQUIRA AGORA MESMO
+                    </Link>
                   </Button>
                 </Stack>
               </Box>
