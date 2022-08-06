@@ -13,6 +13,8 @@ import { VideoBG } from "./VideoBG";
 import imgURL from "./image/empireabsolut.jpg";
 import { StarIcon } from "@chakra-ui/icons";
 import Fade from "react-reveal/Fade";
+import "@fontsource/allison";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   const property = {
@@ -98,6 +100,9 @@ export default function Hero() {
                   mt={4}
                 >
                   <Button
+                    as={motion.div}
+                    whileHover={{ scale: 1.2 }}
+                    transition="0.1s linear"
                     size="lg"
                     rounded={"lg"}
                     bgColor={"orange.400"}
@@ -131,46 +136,31 @@ export default function Hero() {
           <Box
             m={[0, 0, 0, 52]}
             zIndex={2}
-            rounded="lg"
+            p={4}
             overflow="hidden"
             alignItems="baseline"
             position="absolute"
+            rounded="lg"
+            backdropFilter="auto"
             boxShadow="lg"
-            bg="whiteAlpha.50"
-            border="1px solid"
-            borderColor="whiteAlpha.400"
-            maxW="lg"
-            p={6}
+            bg="blackAlpha.500"
           >
-            <Heading lineHeight="tall" color={"orange.400"} textAlign="center">
-              <Fade duration={1000} left>
-                <Highlight
-                  query={["Único", "Experiências", "Marcam"]}
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "lg",
-                    bg: "orange.400",
-                    color: "whiteAlpha.900",
-                  }}
-                >
-                  Torne este dia Único e com Experiências que Marcam pra toda a
-                  vida!
-                </Highlight>
-              </Fade>
-              <br />
+            <Heading lineHeight="tall" textAlign="center">
               <Fade duration={2000} left>
                 <Highlight
-                  query={["Feliz Dia dos Pais"]}
+                  query={["Dia dos Pais", "D.Comercial", "Pai"]}
                   styles={{
-                    px: "2",
+                    fontFamily: "Allison",
+                    fontSize: "6xl",
+                    px: "3",
                     py: "1",
                     rounded: "lg",
                     bg: "orange.400",
                     color: "whiteAlpha.900",
                   }}
                 >
-                  Feliz Dia dos Pais
+                  Neste Dia dos Pais a D.Comercial te ajuda a achar um presente
+                  marcante e tão especial quanto o seu Pai.
                 </Highlight>
               </Fade>
             </Heading>
