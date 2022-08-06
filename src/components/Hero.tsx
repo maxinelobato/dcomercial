@@ -3,7 +3,6 @@ import {
   Stack,
   // useBoolean,
 } from "@chakra-ui/react";
-import BoxGradient from "./BoxGradient";
 // import Jump from "react-reveal/Jump";
 import CardProduct from "./CardProduct";
 import MessageCTA from "./MessageCTA";
