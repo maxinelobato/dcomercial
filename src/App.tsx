@@ -1,9 +1,14 @@
+import BoxGradient from "./components/BoxGradient";
 import Hero from "./components/Hero";
+import Testimonials from "./components/Testimonials";
 
 export function App() {
   return (
     <>
-      <Hero />
+      <BoxGradient>
+        <Hero />
+        <Testimonials />
+      </BoxGradient>
     </>
   );
 }

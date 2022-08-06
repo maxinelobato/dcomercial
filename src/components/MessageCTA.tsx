@@ -12,6 +12,7 @@ export default function MessageCTA() {
       position="absolute"
       backdropFilter="blur(10px)"
       bg="whiteAlpha.50"
+      roundedTop="2rem"
     >
       <Heading
         lineHeight="tall"
