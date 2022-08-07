@@ -1,14 +1,11 @@
-import BoxGradient from "./components/BoxGradient";
-import Hero from "./components/Hero";
-import Testimonials from "./components/Testimonials";
+import Footer from "./components/EmpireAbsolut/Footer";
+import { EmpireAbsolut } from "./EmpireAbsolut";
 
 export function App() {
   return (
     <>
-      <BoxGradient>
-        <Hero />
-        <Testimonials />
-      </BoxGradient>
+      <EmpireAbsolut />
+      <Footer />
     </>
   );
 }
