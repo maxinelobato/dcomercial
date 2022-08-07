@@ -1,11 +1,10 @@
-import Footer from "./components/EmpireAbsolut/Footer";
+import { Empire } from "./Empire";
 import { EmpireAbsolut } from "./EmpireAbsolut";
 
 export function App() {
   return (
     <>
       <EmpireAbsolut />
-      <Footer />
     </>
   );
 }

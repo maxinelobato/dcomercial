@@ -1,14 +1,9 @@
-import BoxGradient from "./components/Empire/BoxGradient";
-import Hero from "./components/Empire/Hero";
-import Testimonials from "./components/Empire/Testimonials";
+import { ProductEmpire } from "./components/ProductEmpire";
 
 export function Empire() {
   return (
     <>
-      <BoxGradient>
-        <Hero />
-        <Testimonials />
-      </BoxGradient>
+      <ProductEmpire />
     </>
   );
 }
