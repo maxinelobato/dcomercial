@@ -1,19 +1,19 @@
 import { Routes, Route } from "react-router-dom";
-import { EmpireAbsolut } from "./EmpireAbsolut";
-import { Empire } from "./Empire";
-import { GraceMidnight } from "./GraceMidnight";
-import { BodyContour } from "./BodyContour";
-import { BodyShower } from "./BodyShower";
+import ProductBodyContour from "./components/ProductBodyContour";
+import ProductBodyShower from "./components/ProductBodyShower";
+import ProductEmpire from "./components/ProductEmpire";
+import ProductEmpireAbsolut from "./components/ProductEmpireAbsolut";
+import ProductGraceMidnight from "./components/ProductGraceMidnight";
 
 export function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<EmpireAbsolut />} />
-        <Route path="/Empire" element={<Empire />} />
-        <Route path="/GraceMidnight" element={<GraceMidnight />} />
-        <Route path="/BodyContour" element={<BodyContour />} />
-        <Route path="/BodyShower" element={<BodyShower />} />
+        <Route path="/" element={<ProductEmpireAbsolut />} />
+        <Route path="/Empire" element={<ProductEmpire />} />
+        <Route path="/GraceMidnight" element={<ProductGraceMidnight />} />
+        <Route path="/BodyContour" element={<ProductBodyContour />} />
+        <Route path="/BodyShower" element={<ProductBodyShower />} />
       </Routes>
     </>
   );

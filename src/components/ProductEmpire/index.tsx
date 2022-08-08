@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Testimonials from "./Testimonials";
 
-export function ProductEmpire() {
+export default function ProductEmpire() {
   return (
     <>
       <EmpireBG>
