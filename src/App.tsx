@@ -9,26 +9,11 @@ export function App() {
   return (
     <>
       <Routes>
-        <Route
-          path="https://www.dcomercial.com.br/"
-          element={<ProductEmpireAbsolut />}
-        />
-        <Route
-          path="https://www.dcomercial.com.br/Empire"
-          element={<ProductEmpire />}
-        />
-        <Route
-          path="https://www.dcomercial.com.br/GraceMidnight"
-          element={<ProductGraceMidnight />}
-        />
-        <Route
-          path="https://www.dcomercial.com.br/BodyContour"
-          element={<ProductBodyContour />}
-        />
-        <Route
-          path="https://www.dcomercial.com.br/BodyShower"
-          element={<ProductBodyShower />}
-        />
+        <Route path="/" element={<ProductEmpireAbsolut />} />
+        <Route path="/Empire" element={<ProductEmpire />} />
+        <Route path="/GraceMidnight" element={<ProductGraceMidnight />} />
+        <Route path="/BodyContour" element={<ProductBodyContour />} />
+        <Route path="/BodyShower" element={<ProductBodyShower />} />
       </Routes>
     </>
   );
