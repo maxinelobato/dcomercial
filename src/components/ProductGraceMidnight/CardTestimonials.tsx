@@ -1,8 +1,5 @@
-import { StarIcon } from "@chakra-ui/icons";
-import { Badge, Box, Stack, Image } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import imgURL from "./image/empireabsolut.jpg";
-import ButtonCTAHND from "./ButtonCTAHND";
-import ButtonCTAWhats from "./ButtonCTAWhats";
 
 export default function CardTestimonials() {
   const property = {

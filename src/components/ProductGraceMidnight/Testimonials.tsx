@@ -35,7 +35,7 @@ export default function Testimonials() {
         </Heading>
       </Box>
       <SimpleGrid
-        columns={{ base: 2, xl: 2 }}
+        columns={{ base: 1, xl: 2 }}
         spacing={"12"}
         mt={8}
         mx={"auto"}

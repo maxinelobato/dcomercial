@@ -5,8 +5,6 @@ import {
 } from "@chakra-ui/react";
 // import Jump from "react-reveal/Jump";
 import CardProduct from "./CardProduct";
-import MessageCTA from "./MessageCTA";
-import { VideoBG } from "./VideoBG";
 
 export default function Hero() {
   return (
@@ -15,10 +13,6 @@ export default function Hero() {
         <Stack spacing={6} w={"full"} maxW={"lg"}>
           <CardProduct />
         </Stack>
-      </Flex>
-      <Flex flex={2}>
-        <MessageCTA />
-        <VideoBG />
       </Flex>
     </Stack>
   );

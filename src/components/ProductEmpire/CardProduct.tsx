@@ -1,6 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
-import imgURL from "./image/empirehomem.jpg";
+import imgURL from "./image/empire.jpg";
 import ButtonCTAHND from "./ButtonCTAHND";
 import ButtonCTAWhats from "./ButtonCTAWhats";
 

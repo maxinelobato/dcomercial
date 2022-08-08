@@ -1,14 +1,9 @@
-import BoxGradient from "./components/BodyShower/BoxGradient";
-import Hero from "./components/BodyShower/Hero";
-import Testimonials from "./components/BodyShower/Testimonials";
+import { ProductBodyShower } from "./components/ProductBodyShower";
 
 export function BodyShower() {
   return (
     <>
-      <BoxGradient>
-        <Hero />
-        <Testimonials />
-      </BoxGradient>
+      <ProductBodyShower />
     </>
   );
 }
