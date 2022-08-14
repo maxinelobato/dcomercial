@@ -1,10 +1,10 @@
 import { Box, Image } from "@chakra-ui/react";
-import imgURL from "./image/empireabsolut.jpg";
+import imgURL from "./image/empire.jpg";
 
 export default function CardTestimonials() {
   const property = {
     imageUrl: imgURL,
-    imageAlt: "Empire Absolut",
+    imageAlt: "Empire",
   };
   return (
     <Box

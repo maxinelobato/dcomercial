@@ -1,22 +1,25 @@
-import {
-  Flex,
-  Stack,
-  // useBoolean,
-} from "@chakra-ui/react";
-// import Jump from "react-reveal/Jump";
-import CardProduct from "./CardProduct";
-import { EmpireBG } from "./EmpireBG";
+import { Flex, Stack, Image } from "@chakra-ui/react";
+import HNDEmpire from "./HNDEmpire";
+import imgURL from "./image/empirehomem.jpg";
 
 export default function Hero() {
   return (
-    <EmpireBG>
-      <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
-        <Flex p={8} flex={1} align={"center"} justify={"center"}>
-          <Stack spacing={6} w={"full"} maxW={"lg"}>
-            <CardProduct />
-          </Stack>
-        </Flex>
-      </Stack>
-    </EmpireBG>
+    <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
+      <Flex
+        pt={10}
+        p={10}
+        margin={6}
+        flex={1}
+        align={"center"}
+        justify={"center"}
+      >
+        <Stack spacing={6} w="lg" maxW="md">
+          <HNDEmpire />
+        </Stack>
+      </Flex>
+      <Flex flex={2} align="center">
+        <Image src={imgURL} rounded="lg" />
+      </Flex>
+    </Stack>
   );
 }
