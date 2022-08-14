@@ -12,7 +12,7 @@ export default defineConfig({
       //   id: "UA-1789715-1",
       // },
       gtm: {
-        id: "GTM-XXXXXXXX",
+        id: "GTM-PMX3LP3",
       },
       // pixel: {
       //   id: "XXXXXXXX",
