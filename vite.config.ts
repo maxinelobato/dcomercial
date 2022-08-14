@@ -8,15 +8,9 @@ export default defineConfig({
     react(),
     ViteRadar({
       enableDev: true,
-      // analytics: {
-      //   id: "UA-1789715-1",
-      // },
       gtm: {
         id: "GTM-PMX3LP3",
       },
-      // pixel: {
-      //   id: "XXXXXXXX",
-      // },
     }),
   ],
   server: {
