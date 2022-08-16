@@ -9,7 +9,7 @@ export default function HNDLattitudeStamina() {
     imageUrl: imgLATTITUDESTAMINA,
     imageAlt: "Lattitude Stamina",
     title: "Lattitude Stamina",
-    formattedPrice: "R$130,38",
+    formattedPrice: "R$113,38",
     formattedPricePromo: "R$132,90",
     reviewCount: 5,
     rating: 4,
