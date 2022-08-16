@@ -1,6 +1,6 @@
 import { Flex, Stack, Image } from "@chakra-ui/react";
+import ImgStaminaCTA from "./ImgStaminaCTA";
 import HNDLattitudeStamina from "./HNDLattitudeStamina";
-import imgURL from "./image/staminaman.jpg";
 
 export default function Hero() {
   return (
@@ -18,7 +18,8 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={2} align="center">
-        <Image src={imgURL} rounded="lg" />
+        {/* <Image src={imgStamina} rounded="lg" /> */}
+        <ImgStaminaCTA />
       </Flex>
     </Stack>
   );

@@ -1,6 +1,6 @@
-import { Flex, Stack, Image } from "@chakra-ui/react";
+import { Flex, Stack } from "@chakra-ui/react";
 import HNDGelCorpus from "./HNDGelCorpus";
-import imgURL from "./image/medidabarriga.jpg";
+import ImgGelCorpusCTA from "./ImgGelCorpusCTA";
 
 export default function Hero() {
   return (
@@ -18,7 +18,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={2} align="center">
-        <Image src={imgURL} rounded="lg" />
+        <ImgGelCorpusCTA />
       </Flex>
     </Stack>
   );

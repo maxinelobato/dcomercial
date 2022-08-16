@@ -1,6 +1,6 @@
 import { Flex, Stack, Image } from "@chakra-ui/react";
 import HNDEmpire from "./HNDEmpire";
-import imgURL from "./image/empirehomem.jpg";
+import ImgEmpireCTA from "./ImgEmpireCTA";
 
 export default function Hero() {
   return (
@@ -18,7 +18,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={2} align="center">
-        <Image src={imgURL} rounded="lg" />
+        <ImgEmpireCTA />
       </Flex>
     </Stack>
   );

@@ -1,6 +1,6 @@
-import { Flex, Stack, Image } from "@chakra-ui/react";
+import { Flex, Stack } from "@chakra-ui/react";
 import HNDGraceMidnight from "./HNDGraceMidnight";
-import imgURL from "./image/gracewomen.jpg";
+import ImgMidnightCTA from "./ImgMidnightCTA";
 
 export default function Hero() {
   return (
@@ -18,7 +18,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={2} align="center">
-        <Image src={imgURL} rounded="lg" />
+        <ImgMidnightCTA />
       </Flex>
     </Stack>
   );

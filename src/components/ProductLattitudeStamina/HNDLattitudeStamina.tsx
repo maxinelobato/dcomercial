@@ -10,6 +10,7 @@ export default function HNDLattitudeStamina() {
     imageAlt: "Lattitude Stamina",
     title: "Lattitude Stamina",
     formattedPrice: "R$130,38",
+    formattedPricePromo: "R$132,90",
     reviewCount: 5,
     rating: 4,
   };
@@ -46,9 +47,18 @@ export default function HNDLattitudeStamina() {
           {property.title}
         </Box>
         <Box color="whiteAlpha.800" fontSize="lg" fontWeight="bold">
-          {property.formattedPrice}
+          {property.formattedPrice} {""}
+          <Box
+            as="span"
+            textDecoration={"line-through"}
+            color="gray.600"
+            fontSize="lg"
+            fontWeight="bold"
+          >
+            {property.formattedPricePromo}
+          </Box>
           <Box as="span" color="whiteAlpha.800" fontSize="sm">
-            / à Vista ou no Cartão
+            {""} / à Vista ou no Cartão
           </Box>
         </Box>
         <Box display="flex" mt="2" alignItems="center">
