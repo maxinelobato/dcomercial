@@ -1,6 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
-import ButtonCTAGraceMidnight from "./ButtonCTA/ButtonCTAGraceMidnight";
+import ButtonCTAGraceMidnight from "../PageHome/ButtonCTA/ButtonCTAGraceMidnight";
 import imgGRACEMIDNIGHT from "./image/gracemidnight.jpg";
 
 export default function HNDGraceMidnight() {

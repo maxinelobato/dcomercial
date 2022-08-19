@@ -1,6 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
-import ButtonCTABodyContour from "./ButtonCTA/ButtonCTABodyContour";
+import ButtonCTABodyContour from "../PageHome/ButtonCTA/ButtonCTABodyContour";
 import imgGELCORPUS from "./image/gelcorpus.jpg";
 
 export default function HNDGelCorpus() {

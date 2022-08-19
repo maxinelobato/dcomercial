@@ -1,6 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
-import ButtonCTALattitudeStamina from "./ButtonCTA/ButtonCTALattitudeStamina";
+import ButtonCTALattitudeStamina from "../PageHome/ButtonCTA/ButtonCTALattitudeStamina";
 import imgLATTITUDESTAMINA from "./image/lattitudestamina.jpg";
 
 export default function HNDLattitudeStamina() {

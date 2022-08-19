@@ -1,6 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
-import ButtonCTAEmpire from "./ButtonCTA/ButtonCTAEmpire";
+import ButtonCTAEmpire from "../PageHome/ButtonCTA/ButtonCTAEmpire";
 import imgEMPIRE from "./image/empire.jpg";
 
 export default function HNDEmpire() {
