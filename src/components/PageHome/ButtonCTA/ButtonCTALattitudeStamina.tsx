@@ -27,7 +27,7 @@ export default function ButtonCTALattitudeStamina() {
         href="https://www.hinode.com.br/lattitude-stamina-deo-colonia-100ml/p/?id_consultor=35828203"
         isExternal
       >
-        compre comigo
+        compre no site oficial
       </Link>
     </Button>
   );

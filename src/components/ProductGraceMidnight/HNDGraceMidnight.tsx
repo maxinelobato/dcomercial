@@ -1,7 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
 import ButtonCTAGraceMidnight from "./ButtonCTA/ButtonCTAGraceMidnight";
-import ButtonCTAWhats from "./ButtonCTA/ButtonCTAWhats";
 import imgGRACEMIDNIGHT from "./image/gracemidnight.jpg";
 
 export default function HNDGraceMidnight() {
@@ -66,7 +65,6 @@ export default function HNDGraceMidnight() {
         </Box>
         <Stack direction={{ base: "column", md: "row" }} spacing={4} mt={4}>
           <ButtonCTAGraceMidnight />
-          <ButtonCTAWhats />
         </Stack>
       </Box>
     </Box>

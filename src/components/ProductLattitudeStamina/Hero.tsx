@@ -1,4 +1,4 @@
-import { Flex, Stack, Image } from "@chakra-ui/react";
+import { Flex, Stack } from "@chakra-ui/react";
 import ImgStaminaCTA from "./ImgStaminaCTA";
 import HNDLattitudeStamina from "./HNDLattitudeStamina";
 

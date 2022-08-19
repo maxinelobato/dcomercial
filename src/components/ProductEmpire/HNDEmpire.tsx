@@ -1,7 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
 import ButtonCTAEmpire from "./ButtonCTA/ButtonCTAEmpire";
-import ButtonCTAWhats from "./ButtonCTA/ButtonCTAWhats";
 import imgEMPIRE from "./image/empire.jpg";
 
 export default function HNDEmpire() {
@@ -67,7 +66,6 @@ export default function HNDEmpire() {
         <Stack direction={{ base: "column", md: "row" }} spacing={4} mt={4}>
           {/* <Jump forever={useBoolean}> */}
           <ButtonCTAEmpire />
-          <ButtonCTAWhats />
           {/* </Jump> */}
         </Stack>
       </Box>

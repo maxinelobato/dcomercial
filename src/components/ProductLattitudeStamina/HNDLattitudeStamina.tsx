@@ -1,7 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
 import ButtonCTALattitudeStamina from "./ButtonCTA/ButtonCTALattitudeStamina";
-import ButtonCTAWhats from "./ButtonCTA/ButtonCTAWhats";
 import imgLATTITUDESTAMINA from "./image/lattitudestamina.jpg";
 
 export default function HNDLattitudeStamina() {
@@ -76,7 +75,6 @@ export default function HNDLattitudeStamina() {
         </Box>
         <Stack direction={{ base: "column", md: "row" }} spacing={4} mt={4}>
           <ButtonCTALattitudeStamina />
-          <ButtonCTAWhats />
         </Stack>
       </Box>
     </Box>

@@ -27,7 +27,7 @@ export default function ButtonCTABodyContour() {
         href="https://www.hinode.com.br/gel-redutor-de-medidas-body-contour-corps-lignea-500g/p?id_consultor=35828203"
         isExternal
       >
-        compre comigo
+        compre no site oficial
       </Link>
     </Button>
   );

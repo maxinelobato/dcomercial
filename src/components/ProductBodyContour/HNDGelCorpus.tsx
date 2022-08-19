@@ -1,7 +1,6 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
 import ButtonCTABodyContour from "./ButtonCTA/ButtonCTABodyContour";
-import ButtonCTAWhats from "./ButtonCTA/ButtonCTAWhats";
 import imgGELCORPUS from "./image/gelcorpus.jpg";
 
 export default function HNDGelCorpus() {
@@ -66,7 +65,6 @@ export default function HNDGelCorpus() {
         </Box>
         <Stack direction={{ base: "column", md: "row" }} spacing={4} mt={4}>
           <ButtonCTABodyContour />
-          <ButtonCTAWhats />
         </Stack>
       </Box>
     </Box>

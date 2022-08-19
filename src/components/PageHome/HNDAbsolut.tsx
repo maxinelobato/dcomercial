@@ -2,7 +2,6 @@ import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Stack, Image } from "@chakra-ui/react";
 import imgABSOLUT from "./image/empireabsolut.jpg";
 import ButtonCTAEmpireAbsolut from "./ButtonCTA/ButtonCTAEmpireAbsolut";
-import ButtonCTAWhats from "./ButtonCTA/ButtonCTAWhats";
 
 export default function HNDAbsolut() {
   const property = {
@@ -67,7 +66,6 @@ export default function HNDAbsolut() {
         <Stack direction={{ base: "column", md: "row" }} spacing={4} mt={4}>
           {/* <Jump forever={useBoolean}> */}
           <ButtonCTAEmpireAbsolut />
-          <ButtonCTAWhats />
           {/* </Jump> */}
         </Stack>
       </Box>

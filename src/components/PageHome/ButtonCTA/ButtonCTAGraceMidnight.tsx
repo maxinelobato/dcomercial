@@ -27,7 +27,7 @@ export default function ButtonCTAGraceMidnight() {
         href="https://www.hinode.com.br/grace-midnight-deo-colonia-new/p?id_consultor=35828203"
         isExternal
       >
-        compre comigo
+        compre no site oficial
       </Link>
     </Button>
   );

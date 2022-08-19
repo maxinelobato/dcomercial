@@ -27,7 +27,7 @@ export default function ButtonCTAEmpire() {
         href="https://www.hinode.com.br/empire-deo-colonia-100ml/p?id_consultor=35828203"
         isExternal
       >
-        compre comigo
+        compre no site oficial
       </Link>
     </Button>
   );

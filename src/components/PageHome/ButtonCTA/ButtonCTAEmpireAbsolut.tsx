@@ -27,7 +27,7 @@ export default function ButtonCTAEmpireAbsolut() {
         href="https://www.hinode.com.br/empire-absolut-deo-colonia/p?id_consultor=35828203"
         isExternal
       >
-        compre comigo
+        compre no site oficial
       </Link>
     </Button>
   );
