@@ -6,9 +6,10 @@ import {
   Icon,
   Link,
   Button,
-  Divider,
   Flex,
   Text,
+  Center,
+  Divider,
 } from "@chakra-ui/react";
 import { FaInstagram } from "react-icons/fa";
 import { ArrowUpIcon } from "@chakra-ui/icons";
@@ -22,7 +23,10 @@ export default function Footer() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   return (
-    <Box bg="blackAlpha.900">
+    <>
+      <Center>
+        <Divider width="7xl" bgColor={"whiteAlpha.900"} />
+      </Center>
       <Container
         as={Stack}
         maxW={"7xl"}
@@ -32,7 +36,7 @@ export default function Footer() {
         align={{ base: "center", md: "center" }}
         spacing={4}
       >
-        <Stack direction="row" spacing={6}>
+        <Stack direction="row" spacing={6} color={"whiteAlpha.800"}>
           <Link
             href="https://www.instagram.com/desintermediacaocomercial/"
             isExternal
@@ -52,7 +56,7 @@ export default function Footer() {
         </Stack>
         <Stack direction={"row"} spacing={6}>
           <Button
-            color="gray.400"
+            color="whiteAlpha.700"
             leftIcon={<ArrowUpIcon />}
             onClick={scrollToTop}
           >
@@ -62,8 +66,8 @@ export default function Footer() {
       </Container>
       <Container
         as={Stack}
-        mt={-10}
-        py={8}
+        mt={-6}
+        py={6}
         direction={{ base: "column", md: "row" }}
         justify={{ base: "center", md: "center" }}
         align={{ base: "center", md: "center" }}
@@ -143,6 +147,6 @@ export default function Footer() {
           </Box>
         </Stack>
       </Container>
-    </Box>
+    </>
   );
 }

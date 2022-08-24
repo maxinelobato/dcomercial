@@ -1,17 +1,17 @@
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Link } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 
 export default function ButtonCTAEmpireAbsolut() {
   return (
     <Button
+      as={motion.div}
+      whileHover={{ scale: 1.1 }}
       textTransform="uppercase"
       size="lg"
       rounded="lg"
+      boxShadow="dark-lg"
       bgColor="orange.500"
-      color="white"
-      boxShadow={
-        "0px 1px 25px -5px rgb(0 0 0 / 48%), 0 10px 10px -5px rgb(0 0 0 / 43%)"
-      }
       _hover={{
         bg: "orange.400",
       }}
@@ -27,7 +27,7 @@ export default function ButtonCTAEmpireAbsolut() {
         href="https://www.hinode.com.br/empire-absolut-deo-colonia/p?id_consultor=35828203"
         isExternal
       >
-        compre no site oficial
+        confira no site oficial
       </Link>
     </Button>
   );

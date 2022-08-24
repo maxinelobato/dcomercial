@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
+import PageHome from "./components/PageHome";
 import ProductBodyContour from "./components/ProductBodyContour";
 import ProductEmpire from "./components/ProductEmpire";
-import PageHome from "./components/PageHome";
 import ProductGraceMidnight from "./components/ProductGraceMidnight";
 import ProductLattitudeStamina from "./components/ProductLattitudeStamina";
 

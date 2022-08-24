@@ -1,9 +1,12 @@
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Link } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 
-export default function ButtonCTAGraceMidnight() {
+export default function ButtonCTAEmpire() {
   return (
     <Button
+      as={motion.div}
+      whileHover={{ scale: 1.1 }}
       textTransform="uppercase"
       size="lg"
       rounded="lg"
@@ -24,7 +27,7 @@ export default function ButtonCTAGraceMidnight() {
         style={{
           textDecoration: "none",
         }}
-        href="https://www.hinode.com.br/grace-midnight-deo-colonia-new/p?id_consultor=35828203"
+        href="https://www.hinode.com.br/empire-deo-colonia-100ml/p?id_consultor=35828203"
         isExternal
       >
         compre no site oficial
