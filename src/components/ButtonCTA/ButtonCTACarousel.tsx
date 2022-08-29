@@ -2,15 +2,18 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Link } from "@chakra-ui/react";
 import Jump from "react-reveal/Jump";
 
-export function ButtonCTAEmpireAbsolut() {
+export function ButtonCTACarousel() {
   return (
     <Jump forever={Boolean}>
       <Button
         textTransform="uppercase"
         size="lg"
         rounded="lg"
-        boxShadow="dark-lg"
         bgColor="orange.500"
+        color="white"
+        boxShadow={
+          "0px 1px 25px -5px rgb(0 0 0 / 48%), 0 10px 10px -5px rgb(0 0 0 / 43%)"
+        }
         _hover={{
           bg: "orange.400",
         }}
@@ -23,10 +26,10 @@ export function ButtonCTAEmpireAbsolut() {
           style={{
             textDecoration: "none",
           }}
-          href="https://www.hinode.com.br/empire-absolut-deo-colonia/p?id_consultor=35828203"
+          href="https://www.hinode.com.br/?id_consultor=35828203"
           isExternal
         >
-          confira no site oficial
+          compre no site oficial
         </Link>
       </Button>
     </Jump>

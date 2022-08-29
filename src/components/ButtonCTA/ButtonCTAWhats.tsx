@@ -10,7 +10,7 @@ import {
   MenuList,
   Stack,
 } from "@chakra-ui/react";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 
 export function ButtonCTAWhats() {
   return (
@@ -57,10 +57,12 @@ export function ButtonCTAWhats() {
                   style={{
                     textDecoration: "none",
                   }}
-                  href="https://api.whatsapp.com/send?phone=5594999083224&text=Ol%C3%A1%2C%20gostei%20desse%20produto!%20Te%20achei%20pelo%20Google"
+                  href="https://www.instagram.com/desintermediacaocomercial/"
                   isExternal
                 >
-                  <MenuItem icon={<BsWhatsapp size={16} />}>WhatsApp</MenuItem>
+                  <MenuItem icon={<BsInstagram size={16} />}>
+                    Instagram
+                  </MenuItem>
                 </Link>
               </MenuGroup>
             </MenuList>

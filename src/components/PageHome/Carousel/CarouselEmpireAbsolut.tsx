@@ -1,5 +1,6 @@
-import { ArrowForwardIcon, StarIcon } from "@chakra-ui/icons";
-import { Badge, Box, Button, Flex, Image, Link, Stack } from "@chakra-ui/react";
+import { StarIcon } from "@chakra-ui/icons";
+import { Badge, Box, Flex, Image, Stack } from "@chakra-ui/react";
+import { ButtonCTACarousel } from "../../ButtonCTA/ButtonCTACarousel";
 import imgEA from "./image/empire_absolut_carousel.png";
 
 export function CarouselEmpireAbsolut() {
@@ -10,7 +11,7 @@ export function CarouselEmpireAbsolut() {
   return (
     <Stack direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"flex-end"}>
-        <Stack spacing={4} w={"full"} maxW={"lg"}>
+        <Stack spacing={2} w={"full"} maxW={"lg"}>
           <Box display="flex" alignItems="baseline">
             <Badge
               fontSize={"lg"}
@@ -45,30 +46,7 @@ export function CarouselEmpireAbsolut() {
           </Box>
 
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-            <Button
-              textTransform="uppercase"
-              size="lg"
-              rounded="lg"
-              boxShadow="dark-lg"
-              bgColor="orange.500"
-              _hover={{
-                bg: "orange.400",
-              }}
-              _focus={{
-                bg: "orange.300",
-              }}
-              rightIcon={<ArrowForwardIcon />}
-            >
-              <Link
-                style={{
-                  textDecoration: "none",
-                }}
-                href="https://www.hinode.com.br/?id_consultor=35828203"
-                isExternal
-              >
-                confira no site oficial
-              </Link>
-            </Button>
+            <ButtonCTACarousel />
           </Stack>
         </Stack>
       </Flex>
