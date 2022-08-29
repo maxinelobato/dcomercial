@@ -1,38 +1,32 @@
-import React from "react";
 import { Box, IconButton, useBreakpointValue } from "@chakra-ui/react";
+import { useState } from "react";
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 // And react-slick as our Carousel Lib
 import Slider from "react-slick";
 import CarouselEmpire from "./CarouselEmpire";
-import CarouselLattitudeStamina from "./CarouselLattitudeStamina";
 import CarouselEmpireAbsolut from "./CarouselEmpireAbsolut";
-import CarouselGraceMidnight from "./CarouselGraceMidnight";
 import CarouselGelCorpus from "./CarouselGelCorpus";
+import CarouselGraceMidnight from "./CarouselGraceMidnight";
+import CarouselLattitudeStamina from "./CarouselLattitudeStamina";
 
 // Settings for the slider
 const settings = {
   dots: true,
   arrows: false,
-  fade: true,
+  fade: false,
   infinite: true,
   autoplay: true,
   speed: 1000,
-  autoplaySpeed: 3000,
-  slidesToShow: 5,
-  slidesToScroll: 5,
+  autoplaySpeed: 4000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
 };
 
 export default function Carousel() {
-  // As we have used custom buttons, we need a reference variable to
-  // change the state
-  const [slider, setSlider] = React.useState<Slider | null>(null);
-
-  // These are the breakpoints which changes the position of the
-  // buttons as the screen size changes
+  const [slider, setSlider] = useState<any | null>(null);
   const top = useBreakpointValue({ base: "90%", md: "50%" });
-  const side = useBreakpointValue({ base: "30%", md: "10px" });
-
+  const side = useBreakpointValue({ base: "30%", md: "40px" });
   return (
     <Box
       position={"relative"}
@@ -55,8 +49,7 @@ export default function Carousel() {
       {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
-        colorScheme="orange"
-        borderRadius="full"
+        variant="ghost"
         position="absolute"
         left={side}
         top={top}
@@ -64,13 +57,12 @@ export default function Carousel() {
         zIndex={2}
         onClick={() => slider?.slickPrev()}
       >
-        <BiLeftArrowAlt />
+        <BiLeftArrowAlt size="60px" />
       </IconButton>
       {/* Right Icon */}
       <IconButton
         aria-label="right-arrow"
-        colorScheme="orange"
-        borderRadius="full"
+        variant="ghost"
         position="absolute"
         right={side}
         top={top}
@@ -78,10 +70,10 @@ export default function Carousel() {
         zIndex={2}
         onClick={() => slider?.slickNext()}
       >
-        <BiRightArrowAlt />
+        <BiRightArrowAlt size="60px" />
       </IconButton>
       {/* Slider */}
-      <Slider {...settings} ref={(slider) => setSlider(slider)}>
+      <Slider {...settings} ref={(slider: any) => setSlider(slider)}>
         <Box>
           <CarouselEmpireAbsolut />
         </Box>
@@ -89,13 +81,13 @@ export default function Carousel() {
           <CarouselGelCorpus />
         </Box>
         <Box>
+          <CarouselGraceMidnight />
+        </Box>
+        <Box>
           <CarouselLattitudeStamina />
         </Box>
         <Box>
           <CarouselEmpire />
-        </Box>
-        <Box>
-          <CarouselGraceMidnight />
         </Box>
       </Slider>
     </Box>

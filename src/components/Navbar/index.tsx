@@ -7,7 +7,7 @@ import {
   Button,
   Image,
 } from "@chakra-ui/react";
-import imgHND from "/hinodegroup.svg";
+import imgHND from "/hinodegroupcta.svg";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -37,9 +37,8 @@ export default function Navbar() {
             href="https://www.hinode.com.br/?id_consultor=35828203"
             isExternal
           >
-            <Button borderRadius="md" bgColor="orange.500">
-              Loja Oficial
-              <Image ml={2} h={32} w={32} src={imgHND} alt="HND Ecommerce" />
+            <Button size={"lg"} borderRadius="md" bgColor="orange.500">
+              <Image ml={2} h={72} w={72} src={imgHND} alt="HND Ecommerce" />
             </Button>
           </Link>
           <HStack spacing={8} alignItems={"center"}>
@@ -53,12 +52,11 @@ export default function Navbar() {
                 href="https://www.hinode.com.br/?id_consultor=35828203"
                 isExternal
               >
-                <Button borderRadius="md" bgColor="orange.500">
-                  Não achou o seu produto? Acesse o Link da Loja Oficial
+                <Button size={"lg"} borderRadius="md" bgColor="orange.500">
                   <Image
                     ml={2}
-                    h={36}
-                    w={36}
+                    h={72}
+                    w={72}
                     src={imgHND}
                     alt="HND Ecommerce"
                   />
