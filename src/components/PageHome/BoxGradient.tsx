@@ -5,7 +5,7 @@ export default function BoxBGSectionFour(props: BoxProps) {
     <Box
       w="100%"
       h="full"
-      bgGradient="linear(blackAlpha.500 0%, orange.800 25%, orange.700 50%)"
+      bgGradient="linear(blackAlpha.300 0%, blackAlpha.600 25%, blackAlpha.600 50%)"
       {...props}
     />
   );

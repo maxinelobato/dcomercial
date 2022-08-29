@@ -9,7 +9,7 @@ export function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<ProductBodyContour />} />
+        <Route path="/" element={<PageHome />} />
         <Route path="/Empire" element={<ProductEmpire />} />
         <Route path="/GraceMidnight" element={<ProductGraceMidnight />} />
         <Route path="/BodyContour" element={<ProductBodyContour />} />

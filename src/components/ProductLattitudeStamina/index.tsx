@@ -1,12 +1,12 @@
 import BoxGradient from "./BoxGradient";
 import Footer from "./Footer";
-import Hero from "./Hero";
+import HeroLattitudeStamina from "./HeroLattitudeStamina";
 
 export default function ProductLattitudeStamina() {
   return (
     <>
       <BoxGradient>
-        <Hero />
+        <HeroLattitudeStamina />
         <Footer />
       </BoxGradient>
     </>

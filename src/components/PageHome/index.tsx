@@ -1,12 +1,14 @@
+import Navbar from "../Navbar";
 import BoxGradient from "./BoxGradient";
+import Carousel from "./Carousel";
 import Footer from "./Footer";
-import Hero from "./Hero";
 
 export default function PageHome() {
   return (
     <>
       <BoxGradient>
-        <Hero />
+        <Navbar />
+        <Carousel />
         <Footer />
       </BoxGradient>
     </>

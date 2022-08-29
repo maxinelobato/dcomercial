@@ -1,12 +1,12 @@
 import BoxGradient from "./BoxGradient";
 import Footer from "./Footer";
-import Hero from "./Hero";
+import HeroBodyContour from "./HeroBodyContour";
 
 export default function ProductBodyContour() {
   return (
     <>
       <BoxGradient>
-        <Hero />
+        <HeroBodyContour />
         <Footer />
       </BoxGradient>
     </>

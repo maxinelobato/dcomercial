@@ -1,12 +1,12 @@
 import BoxGradient from "./BoxGradient";
 import Footer from "./Footer";
-import Hero from "./Hero";
+import HeroGraceMidnight from "./HeroGraceMidnight";
 
 export default function ProductGraceMidnight() {
   return (
     <>
       <BoxGradient>
-        <Hero />
+        <HeroGraceMidnight />
         <Footer />
       </BoxGradient>
     </>

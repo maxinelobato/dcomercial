@@ -1,12 +1,12 @@
 import BoxGradient from "./BoxGradient";
 import Footer from "./Footer";
-import Hero from "./Hero";
+import HeroEmpire from "./HeroEmpire";
 
 export default function ProductEmpire() {
   return (
     <>
       <BoxGradient>
-        <Hero />
+        <HeroEmpire />
         <Footer />
       </BoxGradient>
     </>

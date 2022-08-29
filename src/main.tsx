@@ -8,7 +8,7 @@ import ButtonCTAWhats from "./components/ButtonCTA/ButtonCTAWhats";
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ChakraProvider>
+      <ChakraProvider resetCSS>
         <ButtonCTAWhats />
         <App />
       </ChakraProvider>

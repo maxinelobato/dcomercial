@@ -1,14 +1,14 @@
 import { MinusIcon } from "@chakra-ui/icons";
 import { Flex, Heading, Stack, Text, Image } from "@chakra-ui/react";
-import imgSTAMINA from "./image/lattitudestamina.png";
-import imgBG from "./image/bg_stamina.png";
-import ButtonCTALattitudeStamina from "../ButtonCTA/ButtonCTALattitudeStamina";
+import imgGRACEMIDNIGHT from "./image/gracemidnight.png";
+import imgBG from "./image/bg_midnight.png";
+import ButtonCTAGraceMidnight from "../ButtonCTA/ButtonCTAGraceMidnight";
 
-export default function Hero() {
+export default function HeroGraceMidnight() {
   return (
     <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={imgSTAMINA} />
+        <Image alt={"Login Image"} objectFit={"cover"} src={imgGRACEMIDNIGHT} />
       </Flex>
       <Flex p={2} flex={1} align={"center"} justify={"center"}>
         <Stack spacing={6} w={"full"} maxW={"lg"}>
@@ -19,16 +19,15 @@ export default function Hero() {
               as={"span"}
               position={"relative"}
             >
-              lattitude
+              grace
             </Text>
             <Image alt={"Login Image"} objectFit={"cover"} src={imgBG} />
           </Heading>
           <Text fontSize={{ base: "md", lg: "lg" }} color={"whiteAlpha.900"}>
-            <MinusIcon /> {""} Para você que gosta de superar obstáculos,
-            alcançar novas posições e encarar novos caminhos.
+            <MinusIcon /> {""} Foi feito para espalhar toda a sua elegância.
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-            <ButtonCTALattitudeStamina />
+            <ButtonCTAGraceMidnight />
           </Stack>
         </Stack>
       </Flex>

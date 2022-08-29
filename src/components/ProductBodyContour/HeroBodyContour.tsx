@@ -4,7 +4,7 @@ import imgBODYCONTOUR from "./image/gelcorpus.png";
 import imgBG from "./image/bg_gelcorpus.png";
 import ButtonCTABodyContour from "../ButtonCTA/ButtonCTABodyContour";
 
-export default function Hero() {
+export default function HeroBodyContour() {
   return (
     <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
       <Flex flex={1}>
