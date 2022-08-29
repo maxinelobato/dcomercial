@@ -66,7 +66,7 @@ export default function CarouselGelCorpus() {
                 style={{
                   textDecoration: "none",
                 }}
-                href="https://www.hinode.com.br/gel-redutor-de-medidas-body-contour-corps-lignea-500g/p?id_consultor=35828203"
+                href="https://www.hinode.com.br/?id_consultor=35828203"
                 isExternal
               >
                 compre no site oficial

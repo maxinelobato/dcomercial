@@ -66,7 +66,7 @@ export default function CarouselGraceMidnight() {
                 style={{
                   textDecoration: "none",
                 }}
-                href="https://www.hinode.com.br/grace-midnight-deo-colonia-new/p?id_consultor=35828203"
+                href="https://www.hinode.com.br/?id_consultor=35828203"
                 isExternal
               >
                 compre no site oficial

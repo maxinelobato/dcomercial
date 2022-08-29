@@ -63,7 +63,7 @@ export default function CarouselEmpireAbsolut() {
                 style={{
                   textDecoration: "none",
                 }}
-                href="https://www.hinode.com.br/empire-absolut-deo-colonia/p?id_consultor=35828203"
+                href="https://www.hinode.com.br/?id_consultor=35828203"
                 isExternal
               >
                 confira no site oficial
