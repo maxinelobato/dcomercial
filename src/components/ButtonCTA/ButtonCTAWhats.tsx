@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { BsWhatsapp } from "react-icons/bs";
 
-export default function ButtonCTAWhats() {
+export function ButtonCTAWhats() {
   return (
     <Stack
       position="fixed"

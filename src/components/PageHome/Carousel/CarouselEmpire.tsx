@@ -2,7 +2,7 @@ import { ArrowForwardIcon, StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Button, Flex, Image, Link, Stack } from "@chakra-ui/react";
 import imgE from "./image/empire_carousel.png";
 
-export default function CarouselEmpire() {
+export function CarouselEmpire() {
   const empire = {
     formattedPrice: "R$156,90",
     rating: 4,

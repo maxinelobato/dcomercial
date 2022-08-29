@@ -1,16 +1,16 @@
-import Navbar from "../Navbar";
-import BoxGradient from "./BoxGradient";
-import Footer from "./Footer";
-import HeroEmpire from "./HeroEmpire";
+import { Footer } from "../Footer";
+import { Navbar } from "../Navbar";
+import { BoxGradientEmpire } from "./BoxGradientEmpire";
+import { HeroEmpire } from "./HeroEmpire";
 
-export default function ProductEmpire() {
+export function ProductEmpire() {
   return (
     <>
-      <BoxGradient>
+      <BoxGradientEmpire>
         <Navbar />
         <HeroEmpire />
         <Footer />
-      </BoxGradient>
+      </BoxGradientEmpire>
     </>
   );
 }

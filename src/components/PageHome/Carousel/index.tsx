@@ -4,11 +4,11 @@ import { useState } from "react";
 import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 // And react-slick as our Carousel Lib
 import Slider from "react-slick";
-import CarouselEmpire from "./CarouselEmpire";
-import CarouselEmpireAbsolut from "./CarouselEmpireAbsolut";
-import CarouselGelCorpus from "./CarouselGelCorpus";
-import CarouselGraceMidnight from "./CarouselGraceMidnight";
-import CarouselLattitudeStamina from "./CarouselLattitudeStamina";
+import { CarouselEmpire } from "./CarouselEmpire";
+import { CarouselEmpireAbsolut } from "./CarouselEmpireAbsolut";
+import { CarouselGelCorpus } from "./CarouselGelCorpus";
+import { CarouselGraceMidnight } from "./CarouselGraceMidnight";
+import { CarouselLattitudeStamina } from "./CarouselLattitudeStamina";
 
 // Settings for the slider
 const settings = {
@@ -23,7 +23,7 @@ const settings = {
   slidesToScroll: 1,
 };
 
-export default function Carousel() {
+export function Carousel() {
   const [slider, setSlider] = useState<any | null>(null);
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "40px" });

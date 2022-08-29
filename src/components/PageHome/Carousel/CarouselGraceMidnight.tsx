@@ -2,7 +2,7 @@ import { ArrowForwardIcon, StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Button, Flex, Image, Link, Stack } from "@chakra-ui/react";
 import imgGM from "./image/grace_midnight_carousel.png";
 
-export default function CarouselGraceMidnight() {
+export function CarouselGraceMidnight() {
   const empire = {
     formattedPrice: "R$156,90",
     rating: 3,

@@ -1,16 +1,16 @@
-import Navbar from "../Navbar";
-import BoxGradient from "./BoxGradient";
-import Footer from "./Footer";
-import HeroEmpireAbsolut from "./HeroEmpireAbsolut";
+import { Footer } from "../Footer";
+import { Navbar } from "../Navbar";
+import { BoxGradientEmpireAbsolut } from "./BoxGradientEmpireAbsolut";
+import { HeroEmpireAbsolut } from "./HeroEmpireAbsolut";
 
-export default function ProductEmpireAbsolut() {
+export function ProductEmpireAbsolut() {
   return (
     <>
-      <BoxGradient>
+      <BoxGradientEmpireAbsolut>
         <Navbar />
         <HeroEmpireAbsolut />
         <Footer />
-      </BoxGradient>
+      </BoxGradientEmpireAbsolut>
     </>
   );
 }

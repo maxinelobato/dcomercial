@@ -1,4 +1,4 @@
-import ProductLattitudeStamina from "./components/ProductLattitudeStamina";
+import { ProductLattitudeStamina } from "./components/ProductLattitudeStamina";
 
 export function LattitudeStamina() {
   return (

@@ -1,4 +1,4 @@
-import ProductBodyContour from "./components/ProductBodyContour";
+import { ProductBodyContour } from "./components/ProductBodyContour";
 
 export function BodyContour() {
   return (

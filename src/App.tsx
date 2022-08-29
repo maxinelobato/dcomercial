@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import PageHome from "./components/PageHome";
-import ProductBodyContour from "./components/ProductBodyContour";
-import ProductEmpire from "./components/ProductEmpire";
-import ProductGraceMidnight from "./components/ProductGraceMidnight";
-import ProductLattitudeStamina from "./components/ProductLattitudeStamina";
+import { PageHome } from "./components/PageHome";
+import { ProductBodyContour } from "./components/ProductBodyContour";
+import { ProductEmpire } from "./components/ProductEmpire";
+import { ProductEmpireAbsolut } from "./components/ProductEmpireAbsolut";
+import { ProductGraceMidnight } from "./components/ProductGraceMidnight";
+import { ProductLattitudeStamina } from "./components/ProductLattitudeStamina";
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
         <Route path="/GraceMidnight" element={<ProductGraceMidnight />} />
         <Route path="/BodyContour" element={<ProductBodyContour />} />
         <Route path="/LattitudeStamina" element={<ProductLattitudeStamina />} />
+        <Route path="/EmpireAbsolut" element={<ProductEmpireAbsolut />} />
       </Routes>
     </>
   );

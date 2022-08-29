@@ -2,7 +2,7 @@ import { ArrowForwardIcon, StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Button, Flex, Image, Link, Stack } from "@chakra-ui/react";
 import imgGC from "./image/gel_corpus_carousel.png";
 
-export default function CarouselGelCorpus() {
+export function CarouselGelCorpus() {
   const empire = {
     formattedPrice: "R$68,90",
     rating: 4,

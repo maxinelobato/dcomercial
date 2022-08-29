@@ -1,16 +1,16 @@
-import Navbar from "../Navbar";
-import BoxGradient from "./BoxGradient";
-import Footer from "./Footer";
-import HeroBodyContour from "./HeroBodyContour";
+import { Footer } from "../Footer";
+import { Navbar } from "../Navbar";
+import { BoxGradientBodyContour } from "./BoxGradientBodyContour";
+import { HeroBodyContour } from "./HeroBodyContour";
 
-export default function ProductBodyContour() {
+export function ProductBodyContour() {
   return (
     <>
-      <BoxGradient>
+      <BoxGradientBodyContour>
         <Navbar />
         <HeroBodyContour />
         <Footer />
-      </BoxGradient>
+      </BoxGradientBodyContour>
     </>
   );
 }

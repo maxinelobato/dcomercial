@@ -1,16 +1,16 @@
-import Navbar from "../Navbar";
-import BoxGradient from "./BoxGradient";
-import Carousel from "./Carousel";
-import Footer from "./Footer";
+import { Footer } from "../Footer";
+import { Navbar } from "../Navbar";
+import { BoxGradientHome } from "./BoxGradientHome";
+import { Carousel } from "./Carousel";
 
-export default function PageHome() {
+export function PageHome() {
   return (
     <>
-      <BoxGradient>
+      <BoxGradientHome>
         <Navbar />
         <Carousel />
         <Footer />
-      </BoxGradient>
+      </BoxGradientHome>
     </>
   );
 }

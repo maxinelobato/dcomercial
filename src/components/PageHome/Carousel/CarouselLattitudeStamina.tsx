@@ -2,7 +2,7 @@ import { ArrowForwardIcon, StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Button, Flex, Image, Link, Stack } from "@chakra-ui/react";
 import imgLE from "./image/lattitude_stamina_carousel.png";
 
-export default function CarouselLattitudeStamina() {
+export function CarouselLattitudeStamina() {
   const empire = {
     formattedPrice: "R$132,90",
     rating: 4,

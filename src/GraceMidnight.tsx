@@ -1,4 +1,4 @@
-import ProductGraceMidnight from "./components/ProductGraceMidnight";
+import { ProductGraceMidnight } from "./components/ProductGraceMidnight";
 
 export function GraceMidnight() {
   return (

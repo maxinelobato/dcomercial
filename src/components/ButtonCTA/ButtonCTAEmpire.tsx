@@ -2,7 +2,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
-export default function ButtonCTAEmpire() {
+export function ButtonCTAEmpire() {
   return (
     <Button
       as={motion.div}

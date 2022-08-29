@@ -1,6 +1,6 @@
 import { Box, BoxProps } from "@chakra-ui/react";
 
-export default function BoxBGSectionFour(props: BoxProps) {
+export function BoxGradientEmpire(props: BoxProps) {
   return (
     <Box
       w="100%"

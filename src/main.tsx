@@ -7,7 +7,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { App } from "./App";
-import ButtonCTAWhats from "./components/ButtonCTA/ButtonCTAWhats";
+import { ButtonCTAWhats } from "./components/ButtonCTA/ButtonCTAWhats";
 
 const config: ThemeConfig = {
   initialColorMode: "dark",

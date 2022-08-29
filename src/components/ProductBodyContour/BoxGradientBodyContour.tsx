@@ -1,11 +1,11 @@
 import { Box, BoxProps } from "@chakra-ui/react";
 
-export default function BoxBGSectionFour(props: BoxProps) {
+export function BoxGradientBodyContour(props: BoxProps) {
   return (
     <Box
       w="100%"
       h="full"
-      bgGradient="linear(blackAlpha.500 0%, #2A252A 25%, #1A1315 50%)"
+      bgGradient="linear(blackAlpha.500 0%, #4E382A 25%, #25160D 50%)"
       {...props}
     />
   );

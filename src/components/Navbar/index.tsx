@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import imgHND from "/hinodegroupcta.svg";
 
-export default function Navbar() {
+export function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>

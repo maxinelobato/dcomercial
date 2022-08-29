@@ -1,16 +1,16 @@
-import Navbar from "../Navbar";
-import BoxGradient from "./BoxGradient";
-import Footer from "./Footer";
-import HeroLattitudeStamina from "./HeroLattitudeStamina";
+import { Footer } from "../Footer";
+import { Navbar } from "../Navbar";
+import { BoxGradientLattitudeStamina } from "./BoxGradientLattitudeStamina";
+import { HeroLattitudeStamina } from "./HeroLattitudeStamina";
 
-export default function ProductLattitudeStamina() {
+export function ProductLattitudeStamina() {
   return (
     <>
-      <BoxGradient>
+      <BoxGradientLattitudeStamina>
         <Navbar />
         <HeroLattitudeStamina />
         <Footer />
-      </BoxGradient>
+      </BoxGradientLattitudeStamina>
     </>
   );
 }

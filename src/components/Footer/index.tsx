@@ -18,7 +18,7 @@ import imgVite from "/vite.svg";
 import imgHND from "/hinodegroup.svg";
 import imgDC from "/dcomercialfooter.svg";
 
-export default function Footer() {
+export function Footer() {
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -72,7 +72,7 @@ export default function Footer() {
         justify={{ base: "center", md: "center" }}
         align={{ base: "center", md: "center" }}
       >
-        <Stack align="center" alignContent="center" color="whiteAlpha.400">
+        <Stack align="center" alignContent="center" color="whiteAlpha.800">
           <Box py={2}>
             <Flex
               align={"center"}

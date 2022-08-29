@@ -1,16 +1,16 @@
-import Navbar from "../Navbar";
-import BoxGradient from "./BoxGradient";
-import Footer from "./Footer";
-import HeroGraceMidnight from "./HeroGraceMidnight";
+import { Footer } from "../Footer";
+import { Navbar } from "../Navbar";
+import { BoxGradientGraceMidnight } from "./BoxGradientGraceMidnight";
+import { HeroGraceMidnight } from "./HeroGraceMidnight";
 
-export default function ProductGraceMidnight() {
+export function ProductGraceMidnight() {
   return (
     <>
-      <BoxGradient>
+      <BoxGradientGraceMidnight>
         <Navbar />
         <HeroGraceMidnight />
         <Footer />
-      </BoxGradient>
+      </BoxGradientGraceMidnight>
     </>
   );
 }

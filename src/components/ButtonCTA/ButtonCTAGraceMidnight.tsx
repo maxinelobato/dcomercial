@@ -2,7 +2,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
-export default function ButtonCTAGraceMidnight() {
+export function ButtonCTAGraceMidnight() {
   return (
     <Button
       as={motion.div}
