@@ -41,7 +41,7 @@ export function CarouselGelCorpus() {
           </Box>
 
           <Box as="span" ml="2" color="whiteAlpha.800" fontSize="sm">
-            100ml
+            500g
           </Box>
 
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
