@@ -1,7 +1,7 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Flex, Stack, Image, Box, Badge } from "@chakra-ui/react";
 import { ButtonCTAEmpire } from "../ButtonCTA/ButtonCTAEmpire";
-import imgE from "./image/empire_carousel.png";
+import imgE from "../PageHome/Carousel/image/empire_carousel.png";
 
 export function HeroEmpire() {
   const empire = {
@@ -11,23 +11,20 @@ export function HeroEmpire() {
   return (
     <Stack direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"flex-end"}>
-        <Stack spacing={4} w={"full"} maxW={"lg"}>
+        <Stack spacing={2} w={"full"} maxW={"lg"}>
           <Box display="flex" alignItems="baseline">
             <Badge
               fontSize={"lg"}
-              borderRadius="full"
+              borderRadius="lg"
               px="2"
               colorScheme="orange"
             >
-              Fragrância Masculina
+              empire
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
             {empire.formattedPrice}
-            <Box as="span" color="whiteAlpha.800" fontSize="sm">
-              / Parcele em Até 6x SEM JUROS
-            </Box>
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">
@@ -45,7 +42,7 @@ export function HeroEmpire() {
             100ml
           </Box>
 
-          <Stack direction={{ base: "column", md: "row" }} spacing={4}>
+          <Stack direction={{ base: "column", md: "row" }}>
             <ButtonCTAEmpire />
           </Stack>
         </Stack>

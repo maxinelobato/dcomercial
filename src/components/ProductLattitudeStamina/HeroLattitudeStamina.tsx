@@ -1,17 +1,17 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Flex, Stack, Image, Box, Badge } from "@chakra-ui/react";
 import { ButtonCTALattitudeStamina } from "../ButtonCTA/ButtonCTALattitudeStamina";
-import imgLE from "./image/lattitude_stamina_carousel.png";
+import imgLE from "../PageHome/Carousel/image/lattitude_stamina_carousel.png";
 
 export function HeroLattitudeStamina() {
-  const lattitudestamina = {
+  const empire = {
     formattedPrice: "R$132,90",
     rating: 4,
   };
   return (
     <Stack direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"flex-end"}>
-        <Stack spacing={4} w={"full"} maxW={"lg"}>
+        <Stack spacing={2} w={"full"} maxW={"lg"}>
           <Box display="flex" alignItems="baseline">
             <Badge
               fontSize={"lg"}
@@ -19,15 +19,12 @@ export function HeroLattitudeStamina() {
               px="2"
               colorScheme="orange"
             >
-              Fragrância Masculina
+              Lattitude Stamina
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
-            {lattitudestamina.formattedPrice}
-            <Box as="span" color="whiteAlpha.800" fontSize="sm">
-              / Parcele em Até 6x SEM JUROS
-            </Box>
+            {empire.formattedPrice}
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">
@@ -36,11 +33,7 @@ export function HeroLattitudeStamina() {
               .map((_, i) => (
                 <StarIcon
                   key={i}
-                  color={
-                    i < lattitudestamina.rating
-                      ? "yellow.400"
-                      : "whiteAlpha.200"
-                  }
+                  color={i < empire.rating ? "yellow.400" : "whiteAlpha.200"}
                 />
               ))}
           </Box>

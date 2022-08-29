@@ -1,17 +1,17 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Flex, Stack, Image, Badge, Box } from "@chakra-ui/react";
 import { ButtonCTAGraceMidnight } from "../ButtonCTA/ButtonCTAGraceMidnight";
-import imgGM from "./image/grace_midnight_carousel.png";
+import imgGM from "../PageHome/Carousel/image/grace_midnight_carousel.png";
 
 export function HeroGraceMidnight() {
-  const gracemidnight = {
+  const empire = {
     formattedPrice: "R$156,90",
     rating: 3,
   };
   return (
     <Stack direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"flex-end"}>
-        <Stack spacing={4} w={"full"} maxW={"lg"}>
+        <Stack spacing={2} w={"full"} maxW={"lg"}>
           <Box display="flex" alignItems="baseline">
             <Badge
               fontSize={"lg"}
@@ -19,15 +19,12 @@ export function HeroGraceMidnight() {
               px="2"
               colorScheme="orange"
             >
-              Fragrância Feminina
+              grace midnight
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
-            {gracemidnight.formattedPrice}
-            <Box as="span" color="whiteAlpha.800" fontSize="sm">
-              / Parcele em Até 6x SEM JUROS
-            </Box>
+            {empire.formattedPrice}
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">
@@ -36,9 +33,7 @@ export function HeroGraceMidnight() {
               .map((_, i) => (
                 <StarIcon
                   key={i}
-                  color={
-                    i < gracemidnight.rating ? "yellow.400" : "whiteAlpha.200"
-                  }
+                  color={i < empire.rating ? "yellow.400" : "whiteAlpha.200"}
                 />
               ))}
           </Box>

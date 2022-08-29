@@ -1,17 +1,17 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Flex, Stack, Image, Box, Badge } from "@chakra-ui/react";
 import { ButtonCTAEmpireAbsolut } from "../ButtonCTA/ButtonCTAEmpireAbsolut";
-import imgEA from "./image/empire_absolut_carousel.png";
+import imgEA from "../PageHome/Carousel/image/empire_absolut_carousel.png";
 
 export function HeroEmpireAbsolut() {
-  const empireabsolut = {
+  const empire = {
     formattedPrice: "R$156,90",
     rating: 2,
   };
   return (
     <Stack direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"flex-end"}>
-        <Stack spacing={4} w={"full"} maxW={"lg"}>
+        <Stack spacing={2} w={"full"} maxW={"lg"}>
           <Box display="flex" alignItems="baseline">
             <Badge
               fontSize={"lg"}
@@ -19,15 +19,12 @@ export function HeroEmpireAbsolut() {
               px="2"
               colorScheme="orange"
             >
-              Lançamento
+              Lançamento empire absolut
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
-            {empireabsolut.formattedPrice}
-            <Box as="span" color="whiteAlpha.800" fontSize="sm">
-              / Parcele em Até 6x SEM JUROS
-            </Box>
+            {empire.formattedPrice}
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">
@@ -36,9 +33,7 @@ export function HeroEmpireAbsolut() {
               .map((_, i) => (
                 <StarIcon
                   key={i}
-                  color={
-                    i < empireabsolut.rating ? "yellow.400" : "whiteAlpha.200"
-                  }
+                  color={i < empire.rating ? "yellow.400" : "whiteAlpha.200"}
                 />
               ))}
           </Box>

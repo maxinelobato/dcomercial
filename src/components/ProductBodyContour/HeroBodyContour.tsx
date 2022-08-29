@@ -1,17 +1,17 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Flex, Stack, Image, Box, Badge } from "@chakra-ui/react";
 import { ButtonCTABodyContour } from "../ButtonCTA/ButtonCTABodyContour";
-import imgGC from "./image/gel_corpus_carousel.png";
+import imgGC from "../PageHome/Carousel/image/gel_corpus_carousel.png";
 
 export function HeroBodyContour() {
-  const gelcorpus = {
+  const empire = {
     formattedPrice: "R$68,90",
     rating: 4,
   };
   return (
     <Stack direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"flex-end"}>
-        <Stack spacing={4} w={"full"} maxW={"lg"}>
+        <Stack spacing={2} w={"full"} maxW={"lg"}>
           <Box display="flex" alignItems="baseline">
             <Badge
               fontSize={"lg"}
@@ -19,15 +19,12 @@ export function HeroBodyContour() {
               px="2"
               colorScheme="orange"
             >
-              Corpo e Banho
+              Gel modelador
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
-            {gelcorpus.formattedPrice}
-            <Box as="span" color="whiteAlpha.800" fontSize="sm">
-              / Parcele em Até 6x SEM JUROS
-            </Box>
+            {empire.formattedPrice}
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">
@@ -36,7 +33,7 @@ export function HeroBodyContour() {
               .map((_, i) => (
                 <StarIcon
                   key={i}
-                  color={i < gelcorpus.rating ? "yellow.400" : "whiteAlpha.200"}
+                  color={i < empire.rating ? "yellow.400" : "whiteAlpha.200"}
                 />
               ))}
           </Box>
