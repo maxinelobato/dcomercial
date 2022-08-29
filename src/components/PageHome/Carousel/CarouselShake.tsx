@@ -1,12 +1,12 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Badge, Box, Flex, Image, Stack } from "@chakra-ui/react";
 import { ButtonCTACarousel } from "../../ButtonCTA/ButtonCTACarousel";
-import imgLE from "./image/lattitude_stamina_carousel.png";
+import imgSHAKE from "./image/shake_carousel.png";
 
-export function CarouselLattitudeStamina() {
-  const empire = {
-    formattedPrice: "R$132,90",
-    rating: 4,
+export function CarouselShake() {
+  const shake = {
+    formattedPrice: "R$119,90",
+    rating: 5,
   };
   return (
     <Stack direction={{ base: "column", md: "row" }}>
@@ -19,12 +19,12 @@ export function CarouselLattitudeStamina() {
               px="2"
               colorScheme="orange"
             >
-              Lattitude Stamina
+              Shake H-control
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
-            {empire.formattedPrice}
+            {shake.formattedPrice}
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">
@@ -33,7 +33,7 @@ export function CarouselLattitudeStamina() {
               .map((_, i) => (
                 <StarIcon
                   key={i}
-                  color={i < empire.rating ? "yellow.400" : "whiteAlpha.200"}
+                  color={i < shake.rating ? "yellow.400" : "whiteAlpha.200"}
                 />
               ))}
           </Box>
@@ -48,7 +48,7 @@ export function CarouselLattitudeStamina() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image w={600} h={600} alt={""} objectFit={"cover"} src={imgLE} />
+        <Image w={600} h={600} alt={""} objectFit={"cover"} src={imgSHAKE} />
       </Flex>
     </Stack>
   );

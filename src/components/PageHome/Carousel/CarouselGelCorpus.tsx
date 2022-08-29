@@ -19,15 +19,12 @@ export function CarouselGelCorpus() {
               px="2"
               colorScheme="orange"
             >
-              Corpo e Banho
+              Gel modelador
             </Badge>
           </Box>
 
           <Box fontSize={"3xl"} fontWeight={"bold"}>
             {empire.formattedPrice}
-            <Box as="span" color="whiteAlpha.800" fontSize="sm">
-              / Parcele em Até 6x SEM JUROS
-            </Box>
           </Box>
 
           <Box display="flex" mt="2" alignItems="center">

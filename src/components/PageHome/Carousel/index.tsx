@@ -9,6 +9,8 @@ import { CarouselEmpireAbsolut } from "./CarouselEmpireAbsolut";
 import { CarouselGelCorpus } from "./CarouselGelCorpus";
 import { CarouselGraceMidnight } from "./CarouselGraceMidnight";
 import { CarouselLattitudeStamina } from "./CarouselLattitudeStamina";
+import { CarouselShake } from "./CarouselShake";
+import { CarouselVenyx } from "./CarouselVenyx";
 
 // Settings for the slider
 const settings = {
@@ -88,6 +90,12 @@ export function Carousel() {
         </Box>
         <Box>
           <CarouselEmpire />
+        </Box>
+        <Box>
+          <CarouselShake />
+        </Box>
+        <Box>
+          <CarouselVenyx />
         </Box>
       </Slider>
     </Box>

@@ -19,7 +19,7 @@ export function CarouselEmpire() {
               px="2"
               colorScheme="orange"
             >
-              Fragrância Masculina
+              empire
             </Badge>
           </Box>
 
