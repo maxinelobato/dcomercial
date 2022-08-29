@@ -5,7 +5,7 @@ export function BoxGradientEmpireAbsolut(props: BoxProps) {
     <Box
       w="100%"
       h="full"
-      bgGradient="linear(blackAlpha.500 0%, gray.800 25%, gray.700 50%)"
+      bgGradient="linear(blackAlpha.500 0%, #58312F 25%, #B34A2F 50%)"
       {...props}
     />
   );
