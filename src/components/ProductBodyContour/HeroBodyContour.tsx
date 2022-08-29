@@ -7,10 +7,7 @@ import ButtonCTABodyContour from "../ButtonCTA/ButtonCTABodyContour";
 export default function HeroBodyContour() {
   return (
     <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
-      <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={imgBODYCONTOUR} />
-      </Flex>
-      <Flex p={2} flex={1} align={"center"} justify={"center"}>
+      <Flex flex={1} align={"center"} justify={"center"}>
         <Stack spacing={6} w={"full"} maxW={"lg"}>
           <Heading fontSize={{ base: "3xl", md: "4xl", lg: "6xl" }}>
             <Text
@@ -31,6 +28,9 @@ export default function HeroBodyContour() {
             <ButtonCTABodyContour />
           </Stack>
         </Stack>
+      </Flex>
+      <Flex flex={1}>
+        <Image alt={"Login Image"} objectFit={"cover"} src={imgBODYCONTOUR} />
       </Flex>
     </Stack>
   );

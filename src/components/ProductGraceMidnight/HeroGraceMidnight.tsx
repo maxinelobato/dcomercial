@@ -7,10 +7,7 @@ import ButtonCTAGraceMidnight from "../ButtonCTA/ButtonCTAGraceMidnight";
 export default function HeroGraceMidnight() {
   return (
     <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
-      <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={imgGRACEMIDNIGHT} />
-      </Flex>
-      <Flex p={2} flex={1} align={"center"} justify={"center"}>
+      <Flex flex={1} align={"center"} justify={"center"}>
         <Stack spacing={6} w={"full"} maxW={"lg"}>
           <Heading fontSize={{ base: "3xl", md: "4xl", lg: "7xl" }}>
             <Text
@@ -30,6 +27,9 @@ export default function HeroGraceMidnight() {
             <ButtonCTAGraceMidnight />
           </Stack>
         </Stack>
+      </Flex>
+      <Flex flex={1}>
+        <Image alt={"Login Image"} objectFit={"cover"} src={imgGRACEMIDNIGHT} />
       </Flex>
     </Stack>
   );
