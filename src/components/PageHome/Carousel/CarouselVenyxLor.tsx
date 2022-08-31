@@ -9,11 +9,11 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ButtonCTACarousel } from "../../ButtonCTA/ButtonCTACarousel";
-import imgLattitudeStamina from "../Carousel/image/lattitudestamina.png";
+import imgVenyxLor from "../Carousel/image/venyxlor.png";
 
-export function CarouselLattitudeStamina() {
-  const lattitudestamina = {
-    formattedPrice: "R$132,90",
+export function CarouselVenyxLor() {
+  const venyxlor = {
+    formattedPrice: "R$157,90",
     rating: 4,
   };
   return (
@@ -51,11 +51,11 @@ export function CarouselLattitudeStamina() {
                   px="2"
                   colorScheme="orange"
                 >
-                  lattitude stamina
+                  venyx l'or
                 </Badge>
               </Box>
               <Box fontSize={"3xl"} fontWeight={"bold"}>
-                {lattitudestamina.formattedPrice}
+                {venyxlor.formattedPrice}
               </Box>
               <Box display="flex" mt="2" alignItems="center">
                 {Array(5)
@@ -64,9 +64,7 @@ export function CarouselLattitudeStamina() {
                     <StarIcon
                       key={i}
                       color={
-                        i < lattitudestamina.rating
-                          ? "yellow.400"
-                          : "whiteAlpha.200"
+                        i < venyxlor.rating ? "yellow.400" : "whiteAlpha.200"
                       }
                     />
                   ))}
@@ -83,7 +81,7 @@ export function CarouselLattitudeStamina() {
         <Flex flex="1" overflow="hidden">
           <Image
             display={{ base: "none", sm: "initial" }}
-            src={imgLattitudeStamina}
+            src={imgVenyxLor}
             alt=""
             fallback={<Skeleton />}
             maxH="full"

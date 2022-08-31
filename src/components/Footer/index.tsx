@@ -25,7 +25,7 @@ export function Footer() {
   return (
     <>
       <Center>
-        <Divider width="7xl" bgColor={"whiteAlpha.900"} />
+        <Divider width="7xl" bgColor={"orange.400"} />
       </Center>
       <Container
         as={Stack}

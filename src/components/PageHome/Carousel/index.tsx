@@ -11,6 +11,7 @@ import { CarouselGraceMidnight } from "./CarouselGraceMidnight";
 import { CarouselLattitudeStamina } from "./CarouselLattitudeStamina";
 import { CarouselShake } from "./CarouselShake";
 import { CarouselVenyx } from "./CarouselVenyx";
+import { CarouselVenyxLor } from "./CarouselVenyxLor";
 
 // Settings for the slider
 const settings = {
@@ -96,6 +97,9 @@ export function Carousel() {
         </Box>
         <Box>
           <CarouselVenyx />
+        </Box>
+        <Box>
+          <CarouselVenyxLor />
         </Box>
       </Slider>
     </Box>

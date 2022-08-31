@@ -37,7 +37,7 @@ export function Navbar() {
             href="https://www.hinode.com.br/?id_consultor=35828203"
             isExternal
           >
-            <Button size={"lg"} borderRadius="md" bgColor="orange.500">
+            <Button size={"lg"} borderRadius="md" bgColor="orange.400">
               <Image ml={2} h={72} w={72} src={imgHND} alt="HND Ecommerce" />
             </Button>
           </Link>
@@ -52,7 +52,7 @@ export function Navbar() {
                 href="https://www.hinode.com.br/?id_consultor=35828203"
                 isExternal
               >
-                <Button size={"lg"} borderRadius="md" bgColor="orange.500">
+                <Button size={"lg"} borderRadius="md" bgColor="orange.400">
                   <Image
                     ml={2}
                     h={72}

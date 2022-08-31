@@ -5,7 +5,7 @@ export function BoxGradientHome(props: BoxProps) {
     <Box
       w="100%"
       h="full"
-      bgGradient="linear(blackAlpha.300 0%, blackAlpha.600 25%, blackAlpha.600 50%)"
+      bgGradient="linear(blackAlpha.300 0%, blackAlpha.700 25%, blackAlpha.800 50%)"
       {...props}
     />
   );
