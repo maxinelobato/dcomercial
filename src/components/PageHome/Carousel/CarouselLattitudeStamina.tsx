@@ -82,12 +82,11 @@ export function CarouselLattitudeStamina() {
         </Box>
         <Flex flex="1" overflow="hidden">
           <Image
+            boxSize="600px"
             display={{ base: "none", sm: "initial" }}
-            src={imgLattitudeStamina}
             alt=""
-            fallback={<Skeleton />}
-            maxH="full"
             objectFit="cover"
+            src={imgLattitudeStamina}
           />
         </Flex>
       </Stack>

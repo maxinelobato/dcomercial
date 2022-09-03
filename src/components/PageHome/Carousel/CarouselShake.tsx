@@ -82,12 +82,11 @@ export function CarouselShake() {
         </Box>
         <Flex flex="1" overflow="hidden">
           <Image
+            boxSize="600px"
             display={{ base: "none", sm: "initial" }}
-            src={imgShakeHcontrol}
             alt=""
-            fallback={<Skeleton />}
-            maxH="full"
             objectFit="cover"
+            src={imgShakeHcontrol}
           />
         </Flex>
       </Stack>

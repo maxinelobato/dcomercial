@@ -82,12 +82,11 @@ export function CarouselEmpireAbsolut() {
         </Box>
         <Flex flex="1" overflow="hidden">
           <Image
+            boxSize="600px"
             display={{ base: "none", sm: "initial" }}
-            src={imgEmpireAbsolut}
             alt=""
-            fallback={<Skeleton />}
-            maxH="full"
             objectFit="cover"
+            src={imgEmpireAbsolut}
           />
         </Flex>
       </Stack>

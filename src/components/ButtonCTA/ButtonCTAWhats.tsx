@@ -27,7 +27,6 @@ export function ButtonCTAWhats() {
           <>
             <MenuButton
               isActive={isOpen}
-              bgColor="blackAlpha.500"
               backdropFilter="auto"
               backdropBlur="1rem"
               display="flex"

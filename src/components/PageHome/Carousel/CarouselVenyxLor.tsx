@@ -80,12 +80,11 @@ export function CarouselVenyxLor() {
         </Box>
         <Flex flex="1" overflow="hidden">
           <Image
+            boxSize="600px"
             display={{ base: "none", sm: "initial" }}
-            src={imgVenyxLor}
             alt=""
-            fallback={<Skeleton />}
-            maxH="full"
             objectFit="cover"
+            src={imgVenyxLor}
           />
         </Flex>
       </Stack>
