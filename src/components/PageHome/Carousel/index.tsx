@@ -17,7 +17,7 @@ import { CarouselVenyxLor } from "./CarouselVenyxLor";
 const settings = {
   dots: true,
   arrows: false,
-  fade: false,
+  fade: true,
   infinite: true,
   autoplay: true,
   speed: 1000,
