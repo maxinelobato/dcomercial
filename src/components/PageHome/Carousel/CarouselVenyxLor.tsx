@@ -3,8 +3,7 @@ import {
   Badge,
   Box,
   Flex,
-  Image,
-  Skeleton,
+  Img,
   Stack,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -79,7 +78,7 @@ export function CarouselVenyxLor() {
           </Stack>
         </Box>
         <Flex flex="1" overflow="hidden">
-          <Image
+          <Img
             boxSize="600px"
             display={{ base: "none", sm: "initial" }}
             alt=""
