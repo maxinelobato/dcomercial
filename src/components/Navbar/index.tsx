@@ -1,106 +1,34 @@
-import {
-  Box,
-  Flex,
-  HStack,
-  Link,
-  useDisclosure,
-  Button,
-  Image,
-} from "@chakra-ui/react";
-import imgHND from "/hinodegroupcta.svg";
+import { Box, Button, Flex, HStack, Text } from "@chakra-ui/react";
 
 export function Navbar() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
       <Box
-        bgColor="blackAlpha.50"
+        bgGradient={
+          "linear(to-r, rgba(245, 215, 49, 0.5), rgba(58, 51, 79, 0.5) )"
+        }
+        boxShadow={"dark-lg"}
         backdropFilter="auto"
         backdropBlur="1rem"
-        px={4}
-        zIndex={2}
-        position={"fixed"}
         w={"full"}
+        position={"fixed"}
+        zIndex={2}
       >
-        <Flex h={16} alignItems={"center"} justifyContent={"center"}>
-          {/* <IconButton
-            size={"md"}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={"Open Menu"}
-            display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
-          /> */}
-          <Link
-            display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
-            style={{ textDecoration: "none" }}
-            href="https://www.hinode.com.br/?id_consultor=35828203"
-            isExternal
-          >
-            <Button size={"lg"} borderRadius="md" bgColor="orange.400">
-              <Image ml={2} h={72} w={72} src={imgHND} alt="HND Ecommerce" />
-            </Button>
-          </Link>
-          <HStack spacing={8} alignItems={"center"}>
-            <HStack
-              as={"nav"}
-              spacing={4}
-              display={{ base: "none", md: "flex" }}
-            >
-              <Link
-                style={{ textDecoration: "none" }}
-                href="https://www.hinode.com.br/?id_consultor=35828203"
-                isExternal
-              >
-                <Button size={"lg"} borderRadius="md" bgColor="orange.400">
-                  <Image
-                    ml={2}
-                    h={72}
-                    w={72}
-                    src={imgHND}
-                    alt="HND Ecommerce"
-                  />
-                </Button>
-              </Link>
-            </HStack>
+        <Flex
+          h={12}
+          alignItems={"center"}
+          justifyContent={"center"}
+          direction={{ base: "column", md: "row" }}
+        >
+          <HStack direction={{ base: "column", md: "row" }} spacing={6}>
+            <Text textAlign={"center"} fontWeight={"semibold"}>
+              Não achou seu produto?
+            </Text>
+            <Button size={"sm"}>Fale Conosco</Button>
           </HStack>
         </Flex>
-
-        {/* {isOpen ? (
-          <Box
-            pb={10}
-            display={{ md: "none" }}
-            alignItems={"center"}
-            justifyContent={"center"}
-          >
-            <Stack
-              pt={6}
-              as={"nav"}
-              spacing={4}
-              align={"center"}
-              justifyContent="center"
-            >
-              <Link
-                style={{ textDecoration: "none" }}
-                href="https://www.hinode.com.br/?id_consultor=35828203"
-                isExternal
-              >
-                <Button borderRadius="md" bgColor="orange.500">
-                  Loja Oficial
-                  <Image
-                    ml={2}
-                    h={32}
-                    w={32}
-                    src={imgHND}
-                    alt="HND Ecommerce"
-                  />
-                </Button>
-              </Link>
-            </Stack>
-          </Box>
-        ) : null} */}
       </Box>
-      <Box p={6} />
+      <Box p={{ base: "4", md: "lg" }} />
     </>
   );
 }

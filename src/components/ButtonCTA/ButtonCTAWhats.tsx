@@ -1,16 +1,6 @@
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
-import {
-  Button,
-  Link,
-  Menu,
-  MenuButton,
-  MenuDivider,
-  MenuGroup,
-  MenuItem,
-  MenuList,
-  Stack,
-} from "@chakra-ui/react";
-import { BsInstagram } from "react-icons/bs";
+import { Button, Link, Stack, Flex, IconButton } from "@chakra-ui/react";
+import { BsWhatsapp } from "react-icons/bs";
 
 export function ButtonCTAWhats() {
   return (
@@ -22,79 +12,34 @@ export function ButtonCTAWhats() {
       justifyContent="center"
       alignItems="center"
     >
-      <Menu>
-        {({ isOpen }) => (
-          <>
-            <MenuButton
-              isActive={isOpen}
-              backdropFilter="auto"
-              backdropBlur="1rem"
-              display="flex"
-              transition="0.1s linear"
-              shadow="sm"
-              as={Button}
-              aria-label="Options"
-              variant="solid"
-            >
-              {isOpen
-                ? ["Fechar", <ChevronDownIcon />]
-                : ["Ajuda?", <ChevronUpIcon />]}
-            </MenuButton>
-            <MenuList
-              backdropFilter="auto"
-              backdropBlur="1rem"
-              transition="0.1s linear"
-              bgColor="blackAlpha.500"
-              shadow="sm"
-            >
-              <MenuGroup title="Produto Indisponível?" />
-              <MenuDivider />
-              <MenuGroup title="Dúvidas?" />
-              <MenuDivider />
-              <MenuGroup title="Fale Conosco no">
-                <Link
-                  style={{
-                    textDecoration: "none",
-                  }}
-                  href="https://www.instagram.com/desintermediacaocomercial/"
-                  isExternal
-                >
-                  <MenuItem icon={<BsInstagram size={16} />}>
-                    Instagram
-                  </MenuItem>
-                </Link>
-              </MenuGroup>
-            </MenuList>
-          </>
-        )}
-      </Menu>
-      {/* <Link
-        style={{
-          textDecoration: "none",
-        }}
-        href="https://api.whatsapp.com/send?phone=5594999083224&text=Ol%C3%A1%2C%20gostei%20desse%20produto!%20Te%20achei%20pelo%20Google"
-        isExternal
-      >
-        <Button
-          size="lg"
-          height="70px"
-          width="200px"
-          textTransform={"capitalize"}
-          backdropFilter="auto"
-          backdropBlur="1rem"
-          display="flex"
-          transition="0.1s linear"
-          bgColor="blackAlpha.500"
-          shadow="sm"
-          textAlign="left"
-          _hover={{
-            bg: "whiteAlpha.200",
+      <Flex justifyContent="center" alignItems="center">
+        <Link
+          style={{
+            textDecoration: "none",
           }}
-          leftIcon={<BsWhatsapp size={32} />}
+          href="https://api.whatsapp.com/send?phone=5594999083224&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
+          isExternal
         >
-          indisponível? <br /> fale conosco
-        </Button>
-      </Link> */}
+          <IconButton
+            boxShadow={
+              "0px 1px 25px -5px rgb(37 211 102 / 48%), 0 10px 10px -5px rgb(37 211 102 / 43%)"
+            }
+            aria-label="whatsapp"
+            w="12"
+            h="12"
+            isRound={true}
+            borderRadius="50%"
+            backdropFilter="auto"
+            backdropBlur="1rem"
+            display="flex"
+            transition="0.1s linear"
+            bgColor={"#25D366"}
+            color={"whiteAlpha.900"}
+            _hover={{ bg: "green.600" }}
+            icon={<BsWhatsapp size="28px" />}
+          />
+        </Link>
+      </Flex>
     </Stack>
   );
 }

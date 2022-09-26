@@ -1,152 +1,117 @@
 import {
-  Box,
+  Button,
+  ButtonGroup,
   Container,
-  Stack,
-  Image,
   Icon,
   Link,
-  Button,
-  Flex,
+  Stack,
   Text,
-  Center,
+  VStack,
   Divider,
 } from "@chakra-ui/react";
 import { FaInstagram } from "react-icons/fa";
+import { LogoDC } from "./LogoDC";
 import { ArrowUpIcon } from "@chakra-ui/icons";
-import imgVercel from "/vercel.svg";
-import imgVite from "/vite.svg";
-import imgHND from "/hinodegroup.svg";
-import imgDC from "/dcomercialfooter.svg";
+import { LogoHND } from "./LogoHND";
+import { LogoVite } from "./LogoVite";
+import { LogoVercel } from "./LogoVercel";
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
 export function Footer() {
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
   return (
-    <>
-      <Center>
-        <Divider width="7xl" bgColor={"orange.400"} />
-      </Center>
-      <Container
-        as={Stack}
-        maxW={"7xl"}
-        py={10}
-        direction={{ base: "column", md: "row" }}
-        justify={{ base: "center", md: "center" }}
-        align={{ base: "center", md: "center" }}
-        spacing={4}
-      >
-        <Stack direction="row" spacing={6} color={"whiteAlpha.800"}>
-          <Link
-            href="https://www.instagram.com/desintermediacaocomercial/"
-            isExternal
-          >
-            <Button borderRadius="md" mt={0}>
-              <Icon as={FaInstagram} w={6} h={6} />
-            </Button>
-          </Link>
-          <Link
-            href="https://www.hinode.com.br/?id_consultor=35828203"
-            isExternal
-          >
-            <Button borderRadius="md" mt={0}>
-              <Image h={32} w={32} src={imgHND} alt="HND Ecommerce" />
-            </Button>
-          </Link>
-        </Stack>
-        <Stack direction={"row"} spacing={6}>
+    <Container maxW="7xl" as="footer" py={{ base: "10", md: "10" }}>
+      <Stack spacing={{ base: "4", md: "5" }}>
+        <Stack
+          justify="space-between"
+          direction={{ base: "column", md: "row" }}
+          align="center"
+          mb={4}
+        >
+          <ButtonGroup>
+            <Link
+              href="https://www.instagram.com/desintermediacaocomercial/"
+              isExternal
+            >
+              <Button
+                borderRadius="md"
+                mt={0}
+                transition={"ease-out"}
+                bgGradient="radial(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"
+              >
+                <Icon as={FaInstagram} w={6} h={6} />
+              </Button>
+            </Link>
+            <Link
+              href="https://www.hinode.com.br/?id_consultor=35828203"
+              isExternal
+            >
+              <Button
+                borderRadius="md"
+                mt={0}
+                transition={"ease-out"}
+                bgColor="#fed832"
+                _hover={{ bg: "#e2d6bc", color: "#3a334f" }}
+              >
+                <LogoHND />
+              </Button>
+            </Link>
+          </ButtonGroup>
           <Button
-            color="whiteAlpha.700"
-            leftIcon={<ArrowUpIcon />}
+            variant={"outline"}
+            leftIcon={<ArrowUpIcon w={6} h={6} />}
             onClick={scrollToTop}
           >
-            Voltar para o topo
+            Voltar
           </Button>
         </Stack>
-      </Container>
-      <Container
-        as={Stack}
-        mt={-6}
-        py={6}
-        direction={{ base: "column", md: "row" }}
-        justify={{ base: "center", md: "center" }}
-        align={{ base: "center", md: "center" }}
-      >
-        <Stack align="center" alignContent="center" color="whiteAlpha.800">
-          <Box py={2}>
-            <Flex
-              align={"center"}
-              _before={{
-                content: '""',
-                flexGrow: 1,
-                mr: 8,
-              }}
-              _after={{
-                content: '""',
-                flexGrow: 1,
-                ml: 8,
-              }}
-            >
-              Hospedado por
-              <Image
-                h={4}
-                w={4}
-                src={imgVercel}
-                alt="Development with Vite"
-                m={[2, 0, 0, 2]}
-              />
-              Vercel e Desenvolvido com
-              <Image
-                h={4}
-                w={4}
-                src={imgVite}
-                alt="Development with Vite"
-                m={[2, 0, 0, 2]}
-              />
-              Vite
-            </Flex>
-          </Box>
-          <Box>
-            <Text pt={2} fontSize={"sm"} textAlign={"center"}>
-              © 2022 D.Comercial. Todos os Direitos Reservados.
-            </Text>
-          </Box>
+        <Divider bgColor="whiteAlpha.100" />
+        <Stack
+          justify="center"
+          direction={{ base: "column", md: "row" }}
+          align="center"
+          color={"#e2d6bc"}
+        >
+          <ButtonGroup variant="solid">
+            <Link style={{ textDecoration: "none", pointerEvents: "none" }}>
+              <Button
+                borderRadius="md"
+                bgColor={"transparent"}
+                fontWeight={"normal"}
+              >
+                Vite
+                <LogoVite ml={2} mr={2} />
+                Vercel
+                <LogoVercel ml={2} mr={2} />
+              </Button>
+            </Link>
+          </ButtonGroup>
         </Stack>
-      </Container>
-      <Container
-        as={Stack}
-        mt={-10}
-        py={8}
-        direction={{ base: "column", md: "row" }}
-        justify={{ base: "center", md: "center" }}
-        align={{ base: "center", md: "center" }}
-      >
-        <Stack align="center" alignContent="center">
-          <Box>
-            <Flex
-              align={"center"}
-              _before={{
-                content: '""',
-                flexGrow: 1,
-                mr: 8,
-              }}
-              _after={{
-                content: '""',
-                flexGrow: 1,
-                ml: 8,
-              }}
-            >
-              <Image
-                h={8}
-                w={8}
-                src={imgDC}
-                alt="D.Comercial"
-                m={[1, 0, 0, 1]}
-              />
-            </Flex>
-          </Box>
+        <Stack
+          justify="center"
+          direction={{ base: "column", md: "row" }}
+          align="center"
+        >
+          <Button
+            borderRadius="md"
+            borderColor="whiteAlpha.100"
+            boxShadow={"inner"}
+            variant="outline"
+            rounded="lg"
+            style={{ pointerEvents: "none" }}
+          >
+            <LogoDC />
+          </Button>
         </Stack>
-      </Container>
-    </>
+        <VStack direction={{ base: "column", md: "row" }}>
+          <Text mb={-10} color={"whiteAlpha.500"}>
+            &copy; {new Date().getFullYear()} D.Comercial | Todos os Direitos
+            Reservados.
+          </Text>
+        </VStack>
+      </Stack>
+    </Container>
   );
 }
