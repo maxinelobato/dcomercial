@@ -1,12 +1,10 @@
-import { Box, Button, Flex, HStack, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, HStack, Text, Link } from "@chakra-ui/react";
 
 export function Navbar() {
   return (
     <>
       <Box
-        bgGradient={
-          "linear(to-r, rgba(245, 215, 49, 0.5), rgba(58, 51, 79, 0.5) )"
-        }
+        bgColor="rgba(245, 215, 49, 0.3)"
         boxShadow={"dark-lg"}
         backdropFilter="auto"
         backdropBlur="1rem"
@@ -24,11 +22,21 @@ export function Navbar() {
             <Text textAlign={"center"} fontWeight={"semibold"}>
               Não achou seu produto?
             </Text>
-            <Button size={"sm"}>Fale Conosco</Button>
+            <Button size={"sm"} textTransform={"uppercase"} shadow="lg">
+              <Link
+                style={{
+                  textDecoration: "none",
+                }}
+                href="https://api.whatsapp.com/send?phone=5594992951302&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
+                isExternal
+              >
+                fale conosco
+              </Link>
+            </Button>
           </HStack>
         </Flex>
       </Box>
-      <Box p={{ base: "4", md: "lg" }} />
+      <Box p={{ base: "3", md: "0.5" }} />
     </>
   );
 }

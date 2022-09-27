@@ -34,7 +34,7 @@ export function Hero() {
                   <Highlight
                     query={["Parauapebas/PA", "Hinode?"]}
                     styles={{
-                      px: "2",
+                      px: "1",
                       py: "-2",
                       rounded: "lg",
                       color: "blackAlpha.800",

@@ -60,7 +60,9 @@ export function Footer() {
             </Link>
           </ButtonGroup>
           <Button
-            variant={"outline"}
+            borderRadius="md"
+            mt={0}
+            transition={"ease-out"}
             leftIcon={<ArrowUpIcon w={6} h={6} />}
             onClick={scrollToTop}
           >

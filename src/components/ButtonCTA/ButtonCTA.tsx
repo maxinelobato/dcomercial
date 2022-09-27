@@ -11,8 +11,8 @@ export function ButtonCTA() {
       textTransform="uppercase"
       size="lg"
       rounded="lg"
-      color="whiteAlpha.900"
-      bgColor="#25D366"
+      bgColor={"#25D366"}
+      color={"whiteAlpha.900"}
       backdropFilter="auto"
       backdropBlur="1rem"
       border="1px"
@@ -20,19 +20,17 @@ export function ButtonCTA() {
       boxShadow={
         "0px 1px 25px -5px rgb(37 211 102 / 48%), 0 10px 10px -5px rgb(37 211 102 / 43%)"
       }
-      _hover={{
-        bg: "green.600",
-      }}
+      _hover={{ bg: "green.600" }}
       leftIcon={<BsWhatsapp />}
     >
       <Link
         style={{
           textDecoration: "none",
         }}
-        href="https://api.whatsapp.com/send?phone=5594999083224&text=Ol%C3%A1%2C%20gostei%20desse%20produto!%20Te%20achei%20pelo%20Google"
+        href="https://api.whatsapp.com/send?phone=5594992951302&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
         isExternal
       >
-        saiba mais
+        fale conosco
       </Link>
     </Button>
   );

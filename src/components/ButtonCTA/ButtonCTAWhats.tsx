@@ -1,5 +1,4 @@
-import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
-import { Button, Link, Stack, Flex, IconButton } from "@chakra-ui/react";
+import { Link, Stack, Flex, IconButton } from "@chakra-ui/react";
 import { BsWhatsapp } from "react-icons/bs";
 
 export function ButtonCTAWhats() {
@@ -17,7 +16,7 @@ export function ButtonCTAWhats() {
           style={{
             textDecoration: "none",
           }}
-          href="https://api.whatsapp.com/send?phone=5594999083224&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
+          href="https://api.whatsapp.com/send?phone=5594992951302&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
           isExternal
         >
           <IconButton
@@ -36,7 +35,7 @@ export function ButtonCTAWhats() {
             bgColor={"#25D366"}
             color={"whiteAlpha.900"}
             _hover={{ bg: "green.600" }}
-            icon={<BsWhatsapp size="28px" />}
+            icon={<BsWhatsapp size="24px" />}
           />
         </Link>
       </Flex>
