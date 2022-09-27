@@ -18,7 +18,7 @@ export function ButtonCTA() {
       border="1px"
       borderColor="whiteAlpha.300"
       boxShadow={
-        "0px 1px 25px -5px rgb(37 211 102 / 48%), 0 10px 10px -5px rgb(37 211 102 / 43%)"
+        "0px 1px 5px 1px rgb(37 211 102 / 48%), 0 5px 5px -5px rgb(37 211 102 / 43%)"
       }
       _hover={{ bg: "green.600" }}
       leftIcon={<BsWhatsapp />}

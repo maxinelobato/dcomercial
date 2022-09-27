@@ -21,7 +21,7 @@ export function ButtonCTAWhats() {
         >
           <IconButton
             boxShadow={
-              "0px 1px 25px -5px rgb(37 211 102 / 48%), 0 10px 10px -5px rgb(37 211 102 / 43%)"
+              "0px 1px 5px 1px rgb(37 211 102 / 48%), 0 5px 5px -5px rgb(37 211 102 / 43%)"
             }
             aria-label="whatsapp"
             w="12"

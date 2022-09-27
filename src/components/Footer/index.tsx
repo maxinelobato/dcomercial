@@ -98,6 +98,7 @@ export function Footer() {
           align="center"
         >
           <Button
+            fontWeight={"normal"}
             borderRadius="md"
             borderColor="whiteAlpha.100"
             boxShadow={"inner"}
@@ -105,7 +106,7 @@ export function Footer() {
             rounded="lg"
             style={{ pointerEvents: "none" }}
           >
-            <LogoDC />
+            <LogoDC mr={2} /> D.Comercial
           </Button>
         </Stack>
         <VStack direction={{ base: "column", md: "row" }}>
