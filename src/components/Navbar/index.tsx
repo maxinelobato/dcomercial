@@ -4,10 +4,10 @@ export function Navbar() {
   return (
     <>
       <Box
-        bgColor="rgba(245, 215, 49, 0.3)"
-        boxShadow={"dark-lg"}
-        backdropFilter="auto"
-        backdropBlur="1rem"
+        bgGradient="linear(to-r,rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3))"
+        boxShadow="base"
+        backdropFilter="blur(5px)"
+        backdropBlur="base"
         w={"full"}
         position={"fixed"}
         zIndex={2}
@@ -22,17 +22,29 @@ export function Navbar() {
             <Text textAlign={"center"} fontWeight={"semibold"}>
               Não achou seu produto?
             </Text>
-            <Button size={"sm"} textTransform={"uppercase"} shadow="lg">
+            <Box
+              fontWeight={"semibold"}
+              shadow="inner"
+              as="button"
+              rounded="md"
+              bg="blackAlpha.300"
+              color="whiteAlpha.800"
+              px={4}
+              h={8}
+              boxShadow={
+                "0px 1px 5px 1px rgb(255 255 255 / 48%), 0 5px 5px -5px rgb(255 255 255 / 43%)"
+              }
+            >
               <Link
                 style={{
                   textDecoration: "none",
                 }}
-                href="https://api.whatsapp.com/send?phone=5594992951302&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
+                href="http://catalogo.grupohinode.com/?id_consultor=35828203"
                 isExternal
               >
-                fale conosco
+                Saiba mais
               </Link>
-            </Button>
+            </Box>
           </HStack>
         </Flex>
       </Box>

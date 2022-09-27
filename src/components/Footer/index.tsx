@@ -45,14 +45,15 @@ export function Footer() {
               </Button>
             </Link>
             <Link
+              style={{ textDecoration: "none" }}
               href="https://www.hinode.com.br/?id_consultor=35828203"
               isExternal
             >
               <Button
                 borderRadius="md"
-                mt={0}
                 transition={"ease-out"}
                 bgColor="#fed832"
+                color={"#3a334f"}
                 _hover={{ bg: "#e2d6bc", color: "#3a334f" }}
               >
                 <LogoHND />
