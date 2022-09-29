@@ -1,5 +1,5 @@
 import { HTMLChakraProps, Img } from "@chakra-ui/react";
-import imgVercel from "../../assets/vercel.svg";
+import imgVercel from "../../assets/vercel.webp";
 
 export const LogoVercel = (props: HTMLChakraProps<"img">) => (
   <Img

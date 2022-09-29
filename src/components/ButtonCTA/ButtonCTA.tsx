@@ -11,16 +11,14 @@ export function ButtonCTA() {
       textTransform="uppercase"
       size="lg"
       rounded="lg"
-      bgColor={"#25D366"}
+      bgColor={"orange.400"}
       color={"whiteAlpha.900"}
       backdropFilter="auto"
       backdropBlur="1rem"
       border="1px"
       borderColor="whiteAlpha.300"
-      boxShadow={
-        "0px 1px 5px 1px rgb(37 211 102 / 48%), 0 5px 5px -5px rgb(37 211 102 / 43%)"
-      }
-      _hover={{ bg: "green.600" }}
+      boxShadow="base"
+      _hover={{ bg: "orange.600" }}
       leftIcon={<BsWhatsapp />}
     >
       <Link

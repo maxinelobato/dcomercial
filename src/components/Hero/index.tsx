@@ -8,7 +8,7 @@ import {
   Container,
   Highlight,
 } from "@chakra-ui/react";
-import imgProducts from "../../assets/bgProducts.png";
+import imgProducts from "../../assets/bgProducts.webp";
 import { ButtonCTA } from "../ButtonCTA/ButtonCTA";
 import { Footer } from "../Footer";
 import { Navbar } from "../Navbar";
@@ -38,7 +38,7 @@ export function Hero() {
                       py: "-2",
                       rounded: "lg",
                       color: "blackAlpha.800",
-                      bg: "#fed832",
+                      bg: "orange.400",
                     }}
                   >
                     Se você é de Parauapebas/PA e está buscando produtos Hinode?
@@ -64,9 +64,7 @@ export function Hero() {
                 transform="scale(1.0)"
                 transition="0.3s ease-in-out"
                 objectFit="contain"
-                _hover={{
-                  transform: "scale(1.08)",
-                }}
+                css={{ filter: "drop-shadow(0 0 1rem rgb(255,255,255))" }}
                 rounded={"lg"}
                 alt={""}
                 mt={{ base: -10, sm: 22 }}

@@ -1,5 +1,5 @@
 import { Box, BoxProps } from "@chakra-ui/react";
-import bgBackground from "../../assets/bgBackgound.png";
+import bgBackground from "../../assets/bgBackgound.webp";
 
 export function BoxImage(props: BoxProps) {
   return (
@@ -7,7 +7,7 @@ export function BoxImage(props: BoxProps) {
       w="100%"
       loading="lazy"
       bgImage={bgBackground}
-      bgSize={"cover"}
+      bgSize={"auto"}
       bgPosition={"center center"}
       {...props}
     />

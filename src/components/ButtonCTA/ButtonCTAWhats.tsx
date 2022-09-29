@@ -21,7 +21,7 @@ export function ButtonCTAWhats() {
         >
           <IconButton
             boxShadow={
-              "0px 1px 5px 1px rgb(37 211 102 / 48%), 0 5px 5px -5px rgb(37 211 102 / 43%)"
+              "0px 1px 5px 1px rgb(237 137 54 / 48%), 0 5px 5px -5px rgb(237 137 54 / 43%)"
             }
             aria-label="whatsapp"
             w="12"
@@ -32,9 +32,9 @@ export function ButtonCTAWhats() {
             backdropBlur="1rem"
             display="flex"
             transition="0.1s linear"
-            bgColor={"#25D366"}
+            bgColor={"orange.400"}
             color={"whiteAlpha.900"}
-            _hover={{ bg: "green.600" }}
+            _hover={{ bg: "orange.600" }}
             icon={<BsWhatsapp size="24px" />}
           />
         </Link>

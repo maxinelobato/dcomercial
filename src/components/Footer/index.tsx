@@ -39,7 +39,7 @@ export function Footer() {
                 borderRadius="md"
                 mt={0}
                 transition={"ease-out"}
-                bgGradient="radial(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"
+                bgColor={"orange.400"}
               >
                 <Icon as={FaInstagram} w={6} h={6} />
               </Button>
@@ -52,9 +52,8 @@ export function Footer() {
               <Button
                 borderRadius="md"
                 transition={"ease-out"}
-                bgColor="#fed832"
+                bgColor="orange.400"
                 color={"#3a334f"}
-                _hover={{ bg: "#e2d6bc", color: "#3a334f" }}
               >
                 <LogoHND />
               </Button>
