@@ -39,7 +39,7 @@ export function Navbar() {
                 style={{
                   textDecoration: "none",
                 }}
-                href="http://catalogo.grupohinode.com/?id_consultor=35828203"
+                href="https://api.whatsapp.com/send/?phone=94992951302&text=Ol%C3%A1+preciso+de+ajuda+para+comprar+meu+produto%21+Te+achei+pelo+Google.&type=phone_number&app_absent=0"
                 isExternal
               >
                 Saiba mais

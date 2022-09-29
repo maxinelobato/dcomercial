@@ -16,13 +16,11 @@ export function ButtonCTAWhats() {
           style={{
             textDecoration: "none",
           }}
-          href="https://api.whatsapp.com/send?phone=5594992951302&text=Ol%C3%A1%2C%20gostei%20desses%20produtos!%20Te%20achei%20pelo%20Google"
+          href="https://api.whatsapp.com/send/?phone=94992951302&text=Ol%C3%A1+preciso+de+ajuda+para+comprar+meu+produto%21+Te+achei+pelo+Google.&type=phone_number&app_absent=0"
           isExternal
         >
           <IconButton
-            boxShadow={
-              "0px 1px 5px 1px rgb(237 137 54 / 48%), 0 5px 5px -5px rgb(237 137 54 / 43%)"
-            }
+            boxShadow="base"
             aria-label="whatsapp"
             w="12"
             h="12"
@@ -32,9 +30,9 @@ export function ButtonCTAWhats() {
             backdropBlur="1rem"
             display="flex"
             transition="0.1s linear"
-            bgColor={"orange.400"}
+            bgColor={"green.400"}
             color={"whiteAlpha.900"}
-            _hover={{ bg: "orange.600" }}
+            _hover={{ bg: "green.600" }}
             icon={<BsWhatsapp size="24px" />}
           />
         </Link>

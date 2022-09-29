@@ -35,12 +35,7 @@ export function Footer() {
               href="https://www.instagram.com/desintermediacaocomercial/"
               isExternal
             >
-              <Button
-                borderRadius="md"
-                mt={0}
-                transition={"ease-out"}
-                bgColor={"orange.400"}
-              >
+              <Button borderRadius="md" transition={"ease-out"}>
                 <Icon as={FaInstagram} w={6} h={6} />
               </Button>
             </Link>
@@ -49,12 +44,7 @@ export function Footer() {
               href="https://www.hinode.com.br/?id_consultor=35828203"
               isExternal
             >
-              <Button
-                borderRadius="md"
-                transition={"ease-out"}
-                bgColor="orange.400"
-                color={"#3a334f"}
-              >
+              <Button borderRadius="md" transition={"ease-out"}>
                 <LogoHND />
               </Button>
             </Link>
@@ -74,7 +64,6 @@ export function Footer() {
           justify="center"
           direction={{ base: "column", md: "row" }}
           align="center"
-          color={"#e2d6bc"}
         >
           <ButtonGroup variant="solid">
             <Link style={{ textDecoration: "none", pointerEvents: "none" }}>

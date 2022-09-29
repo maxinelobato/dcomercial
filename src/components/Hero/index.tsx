@@ -41,7 +41,7 @@ export function Hero() {
                       bg: "orange.400",
                     }}
                   >
-                    Se você é de Parauapebas/PA e está buscando produtos Hinode?
+                    Você é de Parauapebas/PA e está buscando produtos Hinode?
                   </Highlight>
                 </Heading>
                 <Text
