@@ -23,6 +23,7 @@ export function Navbar() {
               Não achou seu produto?
             </Text>
             <Box
+              textTransform="uppercase"
               fontWeight={"semibold"}
               shadow="inner"
               as="button"
@@ -42,7 +43,7 @@ export function Navbar() {
                 href="https://wa.me/5594992951302?text=Ol%C3%A1%20preciso%20de%20ajuda%20para%20comprar%20meu%20produto!%20Te%20achei%20pelo%20Google"
                 isExternal
               >
-                Saiba mais
+                fale conosco
               </Link>
             </Box>
           </HStack>

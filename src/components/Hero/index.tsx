@@ -25,8 +25,8 @@ export function Hero() {
           <Stack
             display={{ base: "flex" }}
             direction={{ base: "column", md: "row" }}
-            spacing={{ base: 8, md: 10 }}
-            py={{ base: 10, md: 0 }}
+            spacing={{ base: 8, md: 10, lg: 12 }}
+            py={{ base: 10, md: 0, lg: 0 }}
           >
             <Flex align={"center"} justify={"center"} textAlign={"left"}>
               <Stack spacing={6} w={"full"} maxW={"lg"}>
