@@ -16,7 +16,7 @@ export function ButtonCTAWhats() {
           style={{
             textDecoration: "none",
           }}
-          href="https://api.whatsapp.com/send/?phone=94992951302&text=Ol%C3%A1+preciso+de+ajuda+para+comprar+meu+produto%21+Te+achei+pelo+Google.&type=phone_number&app_absent=0"
+          href="https://wa.me/5594992951302?text=Ol%C3%A1%20preciso%20de%20ajuda%20para%20comprar%20meu%20produto!%20Te%20achei%20pelo%20Google"
           isExternal
         >
           <IconButton
