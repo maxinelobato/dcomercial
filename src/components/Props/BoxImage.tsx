@@ -7,7 +7,7 @@ export function BoxImage(props: BoxProps) {
       w="100%"
       loading="lazy"
       bgImage={bgBackground}
-      bgSize={"auto"}
+      bgSize={"cover"}
       bgPosition={"center center"}
       {...props}
     />

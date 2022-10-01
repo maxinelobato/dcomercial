@@ -11,8 +11,10 @@ import {
 import imgProducts from "../../assets/bgProducts.webp";
 import { ButtonCTA } from "../ButtonCTA/ButtonCTA";
 import { Footer } from "../Footer";
+import { Information } from "../Information";
 import { Navbar } from "../Navbar";
 import { BoxGradientFooter } from "../Props/BoxGradientFooter";
+import { BoxGradientInfo } from "../Props/BoxGradientInfo";
 import { BoxImage } from "../Props/BoxImage";
 import { StyleDivider } from "../Props/StyleDivider";
 
@@ -73,6 +75,7 @@ export function Hero() {
             </Flex>
           </Stack>
         </Container>
+        <Information />
       </BoxImage>
       <StyleDivider />
       <BoxGradientFooter>
