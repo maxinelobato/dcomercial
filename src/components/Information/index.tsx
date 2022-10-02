@@ -28,12 +28,12 @@ function StatsCard(props: StatsCardProps) {
   return (
     <Stat
       boxShadow="lg"
-      backdropFilter="blur(5px)"
+      backdropFilter="blur(2px)"
       backdropBlur="base"
       px={{ base: 2, md: 8 }}
       py={"12"}
       border={"1px solid"}
-      bgColor={"whiteAlpha.200"}
+      bgColor="whiteAlpha.100"
       borderColor="whiteAlpha.200"
       rounded={"lg"}
     >
