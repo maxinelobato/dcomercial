@@ -30,8 +30,8 @@ function StatsCard(props: StatsCardProps) {
       boxShadow="lg"
       backdropFilter="blur(2px)"
       backdropBlur="base"
-      px={{ base: 2, md: 8 }}
-      py={"12"}
+      px={{ base: "2", md: "8" }}
+      py="12"
       border={"1px solid"}
       bgColor="whiteAlpha.100"
       borderColor="whiteAlpha.200"
