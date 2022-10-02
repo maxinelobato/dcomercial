@@ -1,9 +1,9 @@
-import { Hero } from "./components/Hero";
+import { ComponentsAll } from "./components/ComponentsAll";
 
 export function App() {
   return (
     <>
-      <Hero />
+      <ComponentsAll />
     </>
   );
 }
