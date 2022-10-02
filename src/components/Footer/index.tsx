@@ -1,24 +1,8 @@
-import {
-  Button,
-  ButtonGroup,
-  Container,
-  Icon,
-  Link,
-  Stack,
-  Text,
-  VStack,
-  Divider,
-} from "@chakra-ui/react";
-import { FaInstagram } from "react-icons/fa";
-import { LogoDC } from "./LogoDC";
-import { ArrowUpIcon } from "@chakra-ui/icons";
-import { LogoHND } from "./LogoHND";
-import { LogoVite } from "./LogoVite";
-import { LogoVercel } from "./LogoVercel";
-
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
+import { Container, Stack, Text, VStack, Divider } from "@chakra-ui/react";
+import { ButtonGroupTechs } from "../ButtonCTA/ButtonGroupTechs";
+import { ButtonDComercial } from "../ButtonCTA/ButtonDComercial";
+import { ButtonSocial } from "../ButtonCTA/ButtonSocial";
+import { ButtonScrollToTop } from "../ButtonCTA/ButtonScrollToTop";
 
 export function Footer() {
   return (
@@ -30,34 +14,8 @@ export function Footer() {
           align="center"
           mb={4}
         >
-          <ButtonGroup>
-            <Link
-              href="https://www.instagram.com/desintermediacaocomercial/"
-              isExternal
-            >
-              <Button borderRadius="md" transition={"ease-out"}>
-                <Icon as={FaInstagram} w={6} h={6} />
-              </Button>
-            </Link>
-            <Link
-              style={{ textDecoration: "none" }}
-              href="https://www.hinode.com.br/?id_consultor=35828203"
-              isExternal
-            >
-              <Button borderRadius="md" transition={"ease-out"}>
-                <LogoHND />
-              </Button>
-            </Link>
-          </ButtonGroup>
-          <Button
-            borderRadius="md"
-            mt={0}
-            transition={"ease-out"}
-            leftIcon={<ArrowUpIcon w={6} h={6} />}
-            onClick={scrollToTop}
-          >
-            Voltar
-          </Button>
+          <ButtonSocial />
+          <ButtonScrollToTop />
         </Stack>
         <Divider bgColor="whiteAlpha.100" />
         <Stack
@@ -65,37 +23,14 @@ export function Footer() {
           direction={{ base: "column", md: "row" }}
           align="center"
         >
-          <ButtonGroup variant="solid">
-            <Link style={{ textDecoration: "none", pointerEvents: "none" }}>
-              <Button
-                borderRadius="md"
-                bgColor={"transparent"}
-                fontWeight={"normal"}
-              >
-                Vite
-                <LogoVite ml={2} mr={2} />
-                Vercel
-                <LogoVercel ml={2} mr={2} />
-              </Button>
-            </Link>
-          </ButtonGroup>
+          <ButtonGroupTechs />
         </Stack>
         <Stack
           justify="center"
           direction={{ base: "column", md: "row" }}
           align="center"
         >
-          <Button
-            fontWeight={"normal"}
-            borderRadius="md"
-            borderColor="whiteAlpha.100"
-            boxShadow={"inner"}
-            variant="outline"
-            rounded="lg"
-            style={{ pointerEvents: "none" }}
-          >
-            <LogoDC mr={2} /> D.Comercial
-          </Button>
+          <ButtonDComercial />
         </Stack>
         <VStack direction={{ base: "column", md: "row" }}>
           <Text mb={-10} color={"whiteAlpha.500"}>

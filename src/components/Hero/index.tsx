@@ -62,13 +62,13 @@ export function Hero() {
             </Flex>
             <Flex flex={1}>
               <Image
-                loading="lazy"
+                boxSize={{ base: "500px", md: "700px" }}
                 transform="scale(1.0)"
                 transition="0.3s ease-in-out"
                 objectFit="contain"
                 css={{ filter: "drop-shadow(0 0 1rem rgb(255,255,255))" }}
                 rounded={"lg"}
-                alt={""}
+                alt={"Image Products"}
                 mt={{ base: -10, sm: 22 }}
                 src={imgProducts}
               />
