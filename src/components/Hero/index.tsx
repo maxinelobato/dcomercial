@@ -55,7 +55,7 @@ export function Hero() {
                 >
                   Fale agora mesmo com um de nossos consultores.
                 </Text>
-                <Stack spacing={2} direction={{ base: "column", sm: "row" }}>
+                <Stack spacing={2} direction="row">
                   <ButtonCTA />
                 </Stack>
               </Stack>
