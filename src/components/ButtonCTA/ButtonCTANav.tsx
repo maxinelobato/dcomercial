@@ -22,7 +22,7 @@ export function ButtonCTANav() {
           style={{
             textDecoration: "none",
           }}
-          href="https://wa.me/5594992951302?text=Ol%C3%A1%20preciso%20de%20ajuda%20para%20comprar%20meu%20produto!%20Te%20achei%20pelo%20Google"
+          href="https://catalogo.grupohinode.com/?id_consultor=35828203"
           isExternal
         >
           veja mais produtos

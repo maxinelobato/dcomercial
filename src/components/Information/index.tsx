@@ -16,15 +16,19 @@ import {
   BsFillPeopleFill,
   BsFillHeartFill,
   BsBasketFill,
+  BsCreditCard2FrontFill,
+  BsTruck,
 } from "react-icons/bs";
+import { FaGlobeAmericas, FaTruck } from "react-icons/fa";
 
 interface StatsCardProps {
   title: string;
+  subtitle: string;
   stat: string;
   icon: ReactNode;
 }
 function StatsCard(props: StatsCardProps) {
-  const { title, stat, icon } = props;
+  const { title, subtitle, stat, icon } = props;
   return (
     <Stat
       boxShadow="lg"
@@ -43,6 +47,7 @@ function StatsCard(props: StatsCardProps) {
           <StatNumber fontSize={"2xl"} fontWeight={"medium"}>
             {stat}
           </StatNumber>
+          <StatLabel fontWeight={"light"}>{subtitle}</StatLabel>
         </Box>
         <Box my={"auto"} color={"orange.400"} alignContent={"center"}>
           {icon}
@@ -82,18 +87,39 @@ export function Information() {
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
           <StatsCard
             title={"Nosso Atendimento é"}
+            subtitle={""}
             stat={"Humanizado"}
             icon={<BsFillHeartFill size={"3em"} />}
           />
           <StatsCard
             title={"Somos Especialistas em"}
+            subtitle={""}
             stat={"Pessoas"}
             icon={<BsFillPeopleFill size={"3em"} />}
           />
           <StatsCard
             title={"Você escolhe seu"}
+            subtitle={""}
             stat={"Produto"}
             icon={<BsBasketFill size={"3em"} />}
+          />
+          <StatsCard
+            title={"Parcele em até"}
+            subtitle={""}
+            stat={"6x Sem Juros"}
+            icon={<BsCreditCard2FrontFill size={"3em"} />}
+          />
+          <StatsCard
+            title={"Frete grátis no Ecommerce à"}
+            subtitle={""}
+            stat={"Partir de R$59,90"}
+            icon={<FaTruck size={"3em"} />}
+          />
+          <StatsCard
+            title={"Entregamos para"}
+            subtitle={""}
+            stat={"Todo o Brasil"}
+            icon={<FaGlobeAmericas size={"3em"} />}
           />
         </SimpleGrid>
       </Stack>

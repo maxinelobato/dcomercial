@@ -19,7 +19,7 @@ export function Hero() {
           display={{ base: "flex" }}
           direction={{ base: "column", md: "row" }}
           spacing={{ base: 8, md: 10, lg: 12 }}
-          py={{ base: 12, md: 0, lg: 0 }}
+          py={{ base: 12, md: 0, lg: 10 }}
         >
           <Flex align={"center"} justify={"center"} textAlign={"left"}>
             <Stack spacing={6} w={"full"} maxW={"lg"}>
@@ -34,7 +34,7 @@ export function Hero() {
                     bg: "orange.400",
                   }}
                 >
-                  Você é de Parauapebas/PA e está buscando produtos Hinode?
+                  Você é está buscando produtos Hinode Group?
                 </Highlight>
               </Heading>
               <Text
@@ -44,16 +44,21 @@ export function Hero() {
                 lineHeight={1.2}
                 fontSize={useBreakpointValue({ base: "2xl", md: "3xl" })}
               >
-                Fale agora mesmo com um de nossos consultores.
+                Fale agora mesmo com um de nossos consultores e escolha o seu
+                produto.
               </Text>
-              <Stack spacing={2} direction="row">
+              <Stack spacing={2} direction="row" pb={{ base: "10", md: "0" }}>
                 <ButtonCTA />
               </Stack>
             </Stack>
           </Flex>
-          <Flex flex={1}>
+          <Flex
+            flex={1}
+            align={"center"}
+            justify={{ base: "center", md: "end" }}
+          >
             <Image
-              boxSize={{ base: "500px", md: "700px" }}
+              boxSize={{ base: "300px", md: "500px" }}
               transform="scale(1.0)"
               transition="0.3s ease-in-out"
               objectFit="contain"

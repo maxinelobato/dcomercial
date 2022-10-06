@@ -22,7 +22,7 @@ export function Navbar() {
           </HStack>
         </Flex>
       </Box>
-      <Box p={{ base: "5", md: "0.5" }} />
+      <Box p={{ base: "5", md: "5" }} />
     </>
   );
 }
