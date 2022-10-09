@@ -34,8 +34,8 @@ export function Footer() {
           >
             <ButtonDComercial />
           </Stack>
-          <VStack direction={{ base: "column", md: "row" }}>
-            <Text mb={-10} color={"whiteAlpha.500"}>
+          <VStack direction={{ base: "column", md: "column" }}>
+            <Text mb={-10} color={"whiteAlpha.500"} textAlign={"center"}>
               &copy; {new Date().getFullYear()} D.Comercial | Todos os Direitos
               Reservados.
             </Text>

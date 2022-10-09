@@ -8,7 +8,7 @@ import {
   Container,
   Highlight,
 } from "@chakra-ui/react";
-import imgProducts from "../../assets/bgProducts.webp";
+import imgProducts from "../../assets/34anos2.png";
 import { ButtonCTA } from "../ButtonCTA/ButtonCTA";
 
 export function Hero() {
@@ -23,18 +23,22 @@ export function Hero() {
         >
           <Flex align={"center"} justify={"center"} textAlign={"left"}>
             <Stack spacing={6} w={"full"} maxW={"lg"}>
-              <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+              <Heading
+                lineHeight="tall"
+                fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+              >
                 <Highlight
-                  query={["Parauapebas/PA", "Hinode?"]}
+                  query={["Hinode Group", "400"]}
                   styles={{
-                    px: "1",
-                    py: "-2",
+                    px: "2",
+                    py: "-1",
                     rounded: "lg",
                     color: "blackAlpha.800",
                     bg: "orange.400",
                   }}
                 >
-                  Você está buscando produtos Hinode Group?
+                  Você está buscando produtos Hinode Group. São mais de 400 para
+                  você escolher.
                 </Highlight>
               </Heading>
               <Text
@@ -42,7 +46,7 @@ export function Hero() {
                 maxW={"3xl"}
                 fontWeight={500}
                 lineHeight={1.2}
-                fontSize={useBreakpointValue({ base: "2xl", md: "3xl" })}
+                fontSize={useBreakpointValue({ base: "1xl", md: "2xl" })}
               >
                 Fale agora mesmo com um de nossos consultores e escolha o seu
                 produto.

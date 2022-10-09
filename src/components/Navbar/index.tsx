@@ -7,6 +7,7 @@ export function Navbar() {
       <Box
         backdropFilter="blur(5px)"
         backdropBlur="base"
+        boxShadow="base"
         w={"full"}
         position={"fixed"}
         zIndex={2}
