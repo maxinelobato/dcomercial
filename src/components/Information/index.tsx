@@ -31,13 +31,13 @@ function StatsCard(props: StatsCardProps) {
   const { title, subtitle, stat, icon } = props;
   return (
     <Stat
-      boxShadow="lg"
-      backdropFilter="blur(2px)"
-      backdropBlur="base"
       px={{ base: "2", md: "8" }}
       py="12"
+      boxShadow="lg"
+      backdropFilter="blur(4px)"
+      backdropBlur="base"
       border={"1px solid"}
-      bgColor="whiteAlpha.100"
+      bgColor="whiteAlpha.200"
       borderColor="whiteAlpha.200"
       rounded={"lg"}
     >
@@ -110,7 +110,7 @@ export function Information() {
             icon={<BsCreditCard2FrontFill size={"3em"} />}
           />
           <StatsCard
-            title={"Frete grátis no Ecommerce à"}
+            title={"Frete grátis no Site Oficial à"}
             subtitle={""}
             stat={"Partir de R$59,90"}
             icon={<FaTruck size={"3em"} />}
