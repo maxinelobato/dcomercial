@@ -34,7 +34,7 @@ export function Hero() {
                     bg: "orange.400",
                   }}
                 >
-                  Você é está buscando produtos Hinode Group?
+                  Você está buscando produtos Hinode Group?
                 </Highlight>
               </Heading>
               <Text

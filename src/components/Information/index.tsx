@@ -17,7 +17,6 @@ import {
   BsFillHeartFill,
   BsBasketFill,
   BsCreditCard2FrontFill,
-  BsTruck,
 } from "react-icons/bs";
 import { FaGlobeAmericas, FaTruck } from "react-icons/fa";
 
