@@ -11,15 +11,15 @@ import {
   Text,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import img1 from "../../assets/products/banho.webp";
-import img2 from "../../assets/products/rosto.webp";
-import img3 from "../../assets/products/fragrancias.webp";
-import img4 from "../../assets/products/infantil.webp";
-import img5 from "../../assets/products/cabelo.webp";
-import img6 from "../../assets/products/maquiagem.webp";
-import img7 from "../../assets/products/bemestar.webp";
-import img8 from "../../assets/products/performance.webp";
-import img9 from "../../assets/products/melhorpreco.webp";
+import img1 from "../../assets/banho.webp";
+import img2 from "../../assets/rosto.webp";
+import img3 from "../../assets/fragrancias.webp";
+import img4 from "../../assets/infantil.webp";
+import img5 from "../../assets/cabelo.webp";
+import img6 from "../../assets/maquiagem.webp";
+import img7 from "../../assets/bemestar.webp";
+import img8 from "../../assets/performance.webp";
+import img9 from "../../assets/melhorpreco.webp";
 
 export function MoreProducts() {
   return (

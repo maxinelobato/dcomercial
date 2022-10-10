@@ -8,7 +8,7 @@ import {
   Container,
   Highlight,
 } from "@chakra-ui/react";
-import imgProducts from "../../assets/bgProducts.webp";
+import imgProducts from "../../assets/34anos2.webp";
 import { ButtonCTA } from "../ButtonCTA/ButtonCTA";
 
 export function Hero() {
