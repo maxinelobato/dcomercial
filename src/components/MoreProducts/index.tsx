@@ -55,7 +55,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/banho.png"}
+                src={"/src/assets/Products/banho.webp"}
               />
               <Stack
                 flex={1}
@@ -121,7 +121,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/rosto.jpg"}
+                src={"/src/assets/Products/rosto.webp"}
               />
               <Stack
                 flex={1}
@@ -186,7 +186,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/fragrancias.png"}
+                src={"/src/assets/Products/fragrancias.webp"}
               />
               <Stack
                 flex={1}
@@ -251,7 +251,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/infantil.jpg"}
+                src={"/src/assets/Products/infantil.webp"}
               />
               <Stack
                 flex={1}
@@ -316,7 +316,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/cabelo.jpeg"}
+                src={"/src/assets/Products/cabelo.webp"}
               />
               <Stack
                 flex={1}
@@ -381,7 +381,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/maquiagem.jpg"}
+                src={"/src/assets/Products/maquiagem.webp"}
               />
               <Stack
                 flex={1}
@@ -446,7 +446,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/bemestar.jpg"}
+                src={"/src/assets/Products/bemestar.webp"}
               />
               <Stack
                 flex={1}
@@ -511,7 +511,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/performance.png"}
+                src={"/src/assets/Products/performance.webp"}
               />
               <Stack
                 flex={1}
@@ -576,7 +576,7 @@ export function MoreProducts() {
               <Image
                 objectFit="cover"
                 boxSize="50%"
-                src={"/src/assets/melhorpreco.jpg"}
+                src={"/src/assets/Products/melhorpreco.webp"}
               />
               <Stack
                 flex={1}
