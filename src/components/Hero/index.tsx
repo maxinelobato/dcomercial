@@ -23,15 +23,10 @@ export function Hero() {
         >
           <Flex align={"center"} justify={"center"} textAlign={"left"}>
             <Stack spacing={6} w={"full"} maxW={"lg"}>
-              <Heading
-                lineHeight="tall"
-                fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
-              >
+              <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
                 <Highlight
                   query={["Hinode Group", "400"]}
                   styles={{
-                    px: "2",
-                    py: "-1",
                     rounded: "lg",
                     color: "blackAlpha.800",
                     bg: "orange.400",

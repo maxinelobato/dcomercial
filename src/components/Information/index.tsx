@@ -10,6 +10,7 @@ import {
   StatNumber,
   Text,
   useBreakpointValue,
+  VStack,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import {
@@ -19,6 +20,7 @@ import {
   BsCreditCard2FrontFill,
 } from "react-icons/bs";
 import { FaGlobeAmericas, FaTruck } from "react-icons/fa";
+import { ButtonCTA } from "../ButtonCTA/ButtonCTA";
 
 interface StatsCardProps {
   title: string;
@@ -83,6 +85,9 @@ export function Information() {
           Somos referência em excelência no atendimento com o público. Estamos
           prontos para lhe ouvir e lhe ajudar.
         </Text>
+        <VStack spacing={2} direction="row" pb={{ base: "10", md: "0" }}>
+          <ButtonCTA />
+        </VStack>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
           <StatsCard
             title={"Nosso Atendimento é"}
