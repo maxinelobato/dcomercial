@@ -11,6 +11,15 @@ import {
   Text,
   useBreakpointValue,
 } from "@chakra-ui/react";
+import img1 from "../../assets/products/banho.webp";
+import img2 from "../../assets/products/rosto.webp";
+import img3 from "../../assets/products/fragrancias.webp";
+import img4 from "../../assets/products/infantil.webp";
+import img5 from "../../assets/products/cabelo.webp";
+import img6 from "../../assets/products/maquiagem.webp";
+import img7 from "../../assets/products/bemestar.webp";
+import img8 from "../../assets/products/performance.webp";
+import img9 from "../../assets/products/melhorpreco.webp";
 
 export function MoreProducts() {
   return (
@@ -52,11 +61,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/banho.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img1} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -118,11 +123,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/rosto.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img2} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -183,11 +184,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/fragrancias.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img3} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -248,11 +245,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/infantil.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img4} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -313,11 +306,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/cabelo.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img5} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -378,11 +367,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/maquiagem.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img6} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -443,11 +428,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/bemestar.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img7} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -508,11 +489,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/performance.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img8} />
               <Stack
                 flex={1}
                 flexDirection="column"
@@ -573,11 +550,7 @@ export function MoreProducts() {
             overflow={"hidden"}
           >
             <Flex flex={1}>
-              <Image
-                objectFit="cover"
-                boxSize="50%"
-                src={"/src/assets/products/melhorpreco.webp"}
-              />
+              <Image objectFit="cover" boxSize="50%" src={img9} />
               <Stack
                 flex={1}
                 flexDirection="column"
