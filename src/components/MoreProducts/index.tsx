@@ -104,7 +104,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -165,7 +165,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -226,7 +226,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -287,7 +287,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -348,7 +348,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -409,7 +409,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -470,7 +470,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -531,7 +531,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
@@ -592,7 +592,7 @@ export function MoreProducts() {
                       style={{ textDecoration: "none" }}
                       isExternal
                     >
-                      fale conosco
+                      saiba mais
                     </Link>
                   </Button>
                 </Stack>
